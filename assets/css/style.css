@@ -1,33 +1,95 @@
 /* Whole page styles */
 
 body {
-    background-image: href="";
-
     text-align: center;
+    font-family: 'Carme', sans-serif;
+    color: white;
+    background-image: url("../images/forest.jpeg");
+    margin: 0 auto;
 }
 
-.heading-parent {
-    background-image: href="../images/bigfoot1-patt.jpeg";
+.background {
     background-attachment: fixed;
-    height: 20%vh;
+    width: 100%;
+    height: 100%;
     position: relative;
 }
 
 .heading {
+    font-family: 'Denk One', sans-serif;
     text-align: center;
-    font-size: 150%;
+    font-size: 350%;
     color: white;
-    position: absolute;
+
 }
 
 
 /* Quiz section layout */
 
-.quiz-section {}
+.quiz-section {
+    height: 70vh;
+    width: 80vw;
+    margin: 0 auto;
+    background-color: lightgrey;
+    border-radius: 10px;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
 
-.questions {}
+.questions {
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    margin: 0 auto;
+    height: 60%;
+    width: 90%;
+    background-color: grey;
+    border-radius: 10px;
+    position: absolute;
+}
 
-.answers {}
+.answers {
+    position: absolute;
+    height: 20%;
+    width: 90%;
+    background-color: grey;
+    border-radius: 10px;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+}
+
+#A,
+#B,
+#C {
+    position: absolute;
+    height: 50%;
+    width: 10%;
+    border-radius: 10px;
+    opacity: 0.9;
+    margin: 0 auto;
+}
+
+#A {
+    background-color: darkgoldenrod;
+    top: 25%;
+    left: 20%;
+}
+
+#B {
+    background-color: rgb(11, 184, 106);
+    top: 25%;
+}
+
+#C {
+    background-color: rgb(131, 43, 181);
+    top: 25%;
+    right: 20%;
+}
+
+
 
 .info {}
 

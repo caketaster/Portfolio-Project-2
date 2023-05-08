@@ -38,25 +38,30 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 Happy coding!
 
-
-Source: 
+Source:
 Basic HTML sctrucure: https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/01-putting-the-basics-in-place/04-lets-get-stylish/index.html
 
-Question appears 
-User answers by clicking A, B or C
-If correct, green infobox appears, if incorrect red info box appears (same info, just different colour backgrounds)
-Correct/incorrect answer score increments
-Next question appears
-The quiz works through the different sections, at the end a total score is given
+1 Question appears
+2 User answers by clicking A, B or C
+3 If correct, green infobox appears, if incorrect red info box appears (same info, just different colour backgrounds)
+4 Correct/incorrect answer score increments
+5 Next question appears
+6 The quiz works through the different sections, at the end a total score is given
 
+- user can jump to individual section?
+- info page/tab/pop-up explaining the quiz structure
+- and a page/tab/opp-up with some general sasquatch info?
 
+JS
 runGame() logic
 show q
 listen for click on A, B, C
-  if correct -> green background, score increment
-  else -> red background, incorrect score increment
+if correct -> green background, score increment
+else -> red background, incorrect score increment
 show next q
 
 finalScore() logic
 Grab score total
 "you scored () out of (30)" & "You're a [Sasquatch black-belt] etc"
+
+- need different ending texts depending on your score (smallfoot, mediumfoot, hugefoot)
