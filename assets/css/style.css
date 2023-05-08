@@ -1,0 +1,34 @@
+/* Whole page styles */
+
+body {
+    background-image: href="";
+
+    text-align: center;
+}
+
+.heading-parent {
+    background-image: href="../images/bigfoot1-patt.jpeg";
+    background-attachment: fixed;
+    height: 20%vh;
+    position: relative;
+}
+
+.heading {
+    text-align: center;
+    font-size: 150%;
+    color: white;
+    position: absolute;
+}
+
+
+/* Quiz section layout */
+
+.quiz-section {}
+
+.questions {}
+
+.answers {}
+
+.info {}
+
+.score-tally {}

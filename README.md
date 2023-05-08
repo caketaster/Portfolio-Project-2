@@ -42,3 +42,21 @@ Happy coding!
 Source: 
 Basic HTML sctrucure: https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/01-putting-the-basics-in-place/04-lets-get-stylish/index.html
 
+Question appears 
+User answers by clicking A, B or C
+If correct, green infobox appears, if incorrect red info box appears (same info, just different colour backgrounds)
+Correct/incorrect answer score increments
+Next question appears
+The quiz works through the different sections, at the end a total score is given
+
+
+runGame() logic
+show q
+listen for click on A, B, C
+  if correct -> green background, score increment
+  else -> red background, incorrect score increment
+show next q
+
+finalScore() logic
+Grab score total
+"you scored () out of (30)" & "You're a [Sasquatch black-belt] etc"
