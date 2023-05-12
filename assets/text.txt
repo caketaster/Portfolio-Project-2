@@ -1,4 +1,198 @@
-General Sasquatch Questions:
+let questions = [
+    {
+        section: 'General Sasquatchery'
+        question: 'Which US state has had the highest number of  reported sasquatch sightings (according to the BFRO [BigFoot Research Organisation])?'
+        choiceA: 'Ohio'
+        choiceB: 'Illinois'
+        choiceC: 'Washington'
+        correct: 
+        info: 'This number does not take into account the stories told by indiginous peoples of their encounters with sasquatch, and many encounters are not reported.'
+    }
+    {
+        section: 'General Sasquatchery'
+        question: "In which year did Jerry Crew make a cast of a 16 inch sasquatch footprint, bringing the creature to popular attention and helping to christen the name 'Bigfoot'?"
+        choiceA: '1949'
+        choiceB: '1958'
+        choiceC: '1962'
+        correct:
+        info: 'Jerry was a bulldozer operator for a Northern Californian logging company when he made the discovery.'
+    }
+    {
+        section: 'General Sasquatchery'
+        question: "Which indigenous language does the word 'sasquatch' derive from?"
+        choiceA: 'Halqemeylem'
+        choiceB: 'Algonqian'
+        choiceC: 'Siouan'
+        correct:
+        info: "In western Canada, the Sts'ailes First Nation have the word “Sasq'ets” to refer to the wild men of the forests."
+    }
+    {
+        section: 'General Sasquatchery'
+        question: "Which of the following countries does NOT have a hairy wild-man phenomenon?"
+        choiceA: 'China'
+        choiceB: 'Portugal'
+        choiceC: 'Vietnam'
+        correct:
+        info: 'Sasquatch is known as 'yeren' in China and 'nguoi rung' (or 'Rock Apes') in Vietnam.'
+    }
+    {
+        section: 'General Sasquatchery'
+        question: 'By which name is the local version of sasquatch known in Australia?'
+        choiceA: 'Grassman'
+        choiceB: 'Skunk Ape'
+        choiceC: 'Yowie'
+        correct:
+        info: 'Sasquatch (or the local version thereof) is known as Grassman in Ohio and Skunk Ape in Florida.'
+    }
+    {
+        section: 'General Sasquatchery'
+        question: "Which family adopted Bigfoot in the 1987 movie 'Harry and the...:' "
+        choiceA: 'Freemans'
+        choiceB: 'Dahindens'
+        choiceC: 'Hendersons'
+        correct:
+        info: "The movie also spawned a TV spin-off of the same name."
+    }
+    {
+        section: 'General Sasquatchery'
+        question: 'In which US state was the first law prohibiting the killing of sasquatch passed?'
+        choiceA: 'Washington'
+        choiceB: 'Texas'
+        choiceC: 'Oregon'
+        correct:
+        info: 'The first place to outlaw Bigfoot slaughter explicitly was Skamania County, Washington, in 1969.'
+    }
+    {
+        section: 'General Sasquatchery'
+        question: "According to the Bigfoot Research Organisation, approximately how many sasquatch sightings have been recorded in The USA in the last 150 years?"
+        choiceA: '2500'
+        choiceB: '3600'
+        choiceC: '4800'
+        correct:
+        info: 'There have been at least 3,583 reported Bigfoot sightings in the contiguous United States, beginning in the mid-nineteenth century. Most sightings are thought to remain unreported.'
+    }
+    {
+        section: 'General Sasquatchery'
+        question: "Which cult 1972 movie helped to popularise the sasquatch phenomenon in America?"
+        choiceA: 'It Exists'
+        choiceB: 'The Legend of Boggy Creek'
+        choiceC: 'Bigfoot Ate My Baby'
+        correct:
+        info: "'...Boggy Creek' presented as a docu-drama, mixing interviews about supposedly true encounters with a dramatic re-enactment."
+    }
+    {
+        section: 'General Sasquatchery'
+        question: "Known for their extensive research into sasquatch, Grover Krantz and Rene Dahinden were two of the 'Four Horsemen of Sasquatchery'. Who of the following was NOT another member of this group?"
+        choiceA: 'John Green'
+        choiceB: 'Cliff Barackman'
+        choiceC: 'Peter Byrne'
+        correct:
+        info: 'John Green is the last surviving member of the Four Horsemen. Cliff Barackman is a presenter of the popular Finding Bigfoot TV show.'
+    }
+    {
+        section: "Patterson-Gimlin footage"
+        question: "In which year was the Patterson-Gimlin footage filmed?"
+        choiceA: '1967'
+        choiceB: '1973'
+        choiceC: '1975'
+        correct:
+        info: "Roger Patterson and Bob Gimlin captured the most famous footage of sasquatch ever whilst horseback riding in northern California in October 1967."
+    }
+    {
+        section: "Patterson-Gimlin footage"
+        question: "Which name has been given to the creature filmed by Roger Patterson?"
+        choiceA: 'Fatty'
+        choiceB: 'Lumpy'
+        choiceC: 'Patty'
+        correct:
+        info: "The beast was named 'Patty' possibly after Roger Patterson's wife, Patricia Patterson."
+    }
+    {
+        section: "Patterson-Gimlin footage"
+        question: "Who claimed to be 'the man in the Patty costume'?"
+        choiceA: 'Bob Titmus'
+        choiceB: 'Bob Heronimus'
+        choiceC: 'Harry Boronigus'
+        correct:
+        info: "Bob Heronimus passed a lie-detector test claiming he was in a bigfoot suit for the Patterson-Gimlin film, though his story has several inconsistencies with other known facts. Incidentally, Roger Patterson also passed a lie-detector test stating that the creature he filmed was genuine."
+    }
+    {
+        section: "Patterson-Gimlin footage"
+        question: "In which area of California was the Patterson-Gimlin footage filmed?"
+        choiceA: 'Saltspring Island'
+        choiceB: 'Bluff Creek'
+        choiceC: 'South Bend'
+        correct:
+        info: "Bluff Creek is a remote wooded area in northern California"
+    }
+    {
+        section: "Sasquatch science"
+        question: "Which ancient hominid is sasquatch most commonly thought to be related to? "
+        choiceA: 'Gigantopithicus  blacki'
+        choiceB: 'Meganthropus'
+        choiceC: 'Lufengpithecus'
+        correct:
+        info: "Gigantopithicus Blacki was a giant ape living in Asia roughly 2 million to 350,000 years ago. Dr Grover Krantz hypothesised that sasquatch is an extant relative and that it reached continental America by crossing the Bering Straits when there was a land-bridge."
+    }
+    {
+        section: "Sasquatch science"
+        question: "Which of these anatomical features is sasquatch NOT said to possess?"
+        choiceA: 'Mid-tarsal break'
+        choiceB: 'Sagittal crest'
+        choiceC: 'Opposable thumb'
+        correct:
+        info: "Dr Jeffrey Meldrum analysed sasquatch footprint casts and hypothesised a mid-tarsal break, a feature that existed in early hominids that modern humans no longer possess. 
+        Great apes often have a sagittal crest, a bony skull protuberance that gives the head a cone-line appearance and supports powerful jaws. "
+    }
+    {
+        section: "Sasquatch science"
+        question: "How is the walking style of sasquatch scientifically described?"
+        choiceA: 'Compliant gait'
+        choiceB: 'Antalgic gait'
+        choiceC: 'Ataxic gait'
+        correct:
+        info: "The compliant gait is characterised by a bent-knee stride, high lifting of the feet and the footprints being arranged in a straight line rather than being staggered, among other features."
+    }
+    {
+        section: "Sasquatch science"
+        question: "Which scientific rule, which states that mammals tend to grow larger in colder climates, do sasquatch footprints appear to adhere to?"
+        choiceA: 'Moore's law'
+        choiceB: 'Bergmann's rule'
+        choiceC: 'Moneymaker's maxim'
+        correct:
+        info: "Larger sasquatch footprints do tend to be found at higher latitudes, following Bergmann's rule."
+    }
+    {
+        section: "Sasquatch science"
+        question: "In 1969 Grover Krantz examined casts of a deformed sasquatch foot, which he believed could not have been faked. What is this cast known as?"
+        choiceA: 'The Cripplefoot cast'
+        choiceB: 'The Limpsquatch cast'
+        choiceC: 'The Hobblefoot cast'
+        correct:
+        info: "The cast appears to show the congenital condition 'metatarsus adductus', more commonly known as 'skew foot'."
+    }
+    {
+        section: "Sasquatch science"
+        question: "Which famous cast is theorised to show the body imprint of a sasquatch lying in the mud?"
+        choiceA: 'The Mount Adams Cast'
+        choiceB: 'The Skookum Cast'
+        choiceC: 'The Bindernagel Cast '
+        correct:
+        info: "The Skookum Cast was made in Mount Adams, Washington. Among the scientists who examined it were Dr John Bindernagel and Dr Jeffrey Meldrum."
+    }
+
+    {
+        section: "Sasquatch science"
+        question: ""
+        choiceA: ''
+        choiceB: ''
+        choiceC: ''
+        correct:
+        info: ""
+    }
+]
+
+General Sasquatchery:
 
 - 1. Which US state has had the highest number of  reported sasquatch sightings (according to the BFRO [BigFoot Research Organisation])?
 A. Ohio B. Illinois C. Washington 
