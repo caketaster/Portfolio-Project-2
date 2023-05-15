@@ -4,7 +4,7 @@ body {
     text-align: center;
     font-family: 'Carme', sans-serif;
     color: white;
-    background-image: url("../images/forest.jpeg");
+    background-image: url("../images/BG.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0 auto;
@@ -23,6 +23,13 @@ body {
     font-size: 350%;
     color: white;
     margin-bottom: 10px;
+}
+
+#intro-modal {
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    text-align: center;
 }
 
 h2 {
@@ -45,56 +52,61 @@ h2 {
     position: relative;
 }
 
+.flex-container {
+    flex-direction: row;
+    text-align: center;
+}
+
 .questions {
     top: 5%;
     left: 5%;
     right: 5%;
-    margin: 0 auto;
+    margin: 0;
     height: 60%;
     width: 90%;
-    background-color: rgb(128, 128, 128, 0.7);
+    background-color: rgb(128, 128, 128, 0.6);
     border-radius: 10px;
-    position: absolute;
+    position: relative;
 }
 
 .answers {
-    position: absolute;
     height: 20%;
     width: 90%;
-    background-color: rgb(128, 128, 128, 0.7);
+    background-color: rgb(128, 128, 128, 0.6);
     border-radius: 10px;
     bottom: 5%;
     left: 5%;
     right: 5%;
+    margin: 0 auto;
+    vertical-align: middle;
+    position: absolute;
+    display: flex;
 }
 
 #A,
 #B,
 #C {
-    position: absolute;
-    height: 50%;
-    width: 10%;
+    height: 80%;
+    width: 15%;
     border-radius: 10px;
     opacity: 0.9;
-    margin: 0 auto;
-    vertical-align: middle;
+    margin: auto;
     line-height: 250%;
     font-size: 150%;
+    background-color: rgb(53, 62, 118);
+
 }
 
 #A {
-    background-color: rgb(184, 134, 11, 1);
     top: 25%;
     left: 20%;
 }
 
 #B {
-    background-color: rgb(11, 184, 106);
     top: 25%;
 }
 
 #C {
-    background-color: rgb(131, 43, 181);
     top: 25%;
     right: 20%;
 }

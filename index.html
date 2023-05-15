@@ -9,9 +9,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Carme&family=Denk+One&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Carme&family=Denk+One&display=swap" rel="stylesheet">
 
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
@@ -22,7 +20,7 @@
     <a target="_blank" href="https://icons8.com/icon/6Lxue6xitfmD/monkey">Monkey</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
     -->
 
-    <title>Sasquatch Quiz</title>
+ <title>Sasquatch Quiz</title>
 </head>
 
 <body>
@@ -31,13 +29,14 @@
 
     <div class="quiz-section">
 
-        <div class="questions">
+        <div class="questions flex-container">
+            
         </div>
 
-        <div class="answers">
-            <span id="A">A</span>
-            <span id="B">B</span>
-            <span id="C">C</span>
+        <div class="answers flex-container">
+            <span id="A" onclick="check('A')">A</span>
+            <span id="B" onclick="check('B')">B</span>
+            <span id="C" onclick="check('C')">C</span>
         </div>
 
         <div id="info">
