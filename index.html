@@ -14,9 +14,7 @@
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
 
-    <!-- insert one of these into info/page footer later (favicon attribution)
-    <a href="https://www.flaticon.com/free-icons/bigfoot" title="bigfoot icons">Bigfoot icons created by Paul J. - Flaticon</a>
-
+    <!-- insert this into info/page footer later (favicon attribution)
     <a target="_blank" href="https://icons8.com/icon/6Lxue6xitfmD/monkey">Monkey</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
     -->
 
@@ -27,10 +25,44 @@
     <h1 class="heading">Sasquatch Quiz</h1>
     <h2>How much do you know about the elusive bigfoot?</h2>
 
+    <!-- Intro modal -->
+    <section class="intro-modal hidden">
+        <div class="flex">
+        </div>
+        <div>
+          <h1>Welcome</h1>
+          <p>
+            Welcome to the Sasquatch Quiz, where you can test and increase your knowledge about the world's favourite cryptid. <br><br><br>
+            There are 3 question sections covering General Sasquatchery, the PGF (Patterson-Gimlin footage), and Sasquatch Science.<br><br><br>
+            Click on a topic to get started.<br><br><br>
+          </p>
+        </div>
+      
+        <button id="btn-general" onclick="generalQs()">General</button>
+        <button id="btn-PGF" onclick="pgfQs()">PGF</button>
+        <button id="btn-science" onclick="scienceQs()">Science</button>
+    </section>
+      
+    <div class="overlay hidden"></div>
+
+    <!-- Info modal -->
+    <div id="myModal" class="modal">
+        <section id="info flex hidden">
+            <p id="info-text">
+                This number does not take into account the stories told by indiginous peoples of their encounters with sasquatch, and many encounters are not reported.
+            </p>
+        </section>
+    </div>
     <div class="quiz-section">
 
         <div class="questions flex-container">
-            
+            <p id="qtext">Which US state has had the highest number of  reported sasquatch sightings (according to the BFRO [Bigfoot Field Research Organisation])</p> <br><br>
+            <div class="answer-text">
+                <span id="answer-a">A. Ohio</span>
+                <span id="answer-b">B. Illinois</span>
+                <span id="answer-c">C. Washington</span>
+            </div>
+                
         </div>
 
         <div class="answers flex-container">
@@ -39,8 +71,6 @@
             <span id="C" onclick="check('C')">C</span>
         </div>
 
-        <div id="info">
-        </div>
     </div>
 
     <div class="score-tally">
