@@ -58,9 +58,9 @@ I used 3 fonts, Alegreya Sans SC for the main heading, Denk One for the sub-head
 
 ## Imagery
 
-As this is a quiz site I kept the imagery basic. The background has a silhouetted sasquatch, all images are creative commons or free to use.
+As this is a quiz site I kept the imagery basic. The background has a silhouetted sasquatch, all images are creative commons or free to use (from Google searches).
 
-The icons all came from [Font Awesome](https://fontawesome.com/). I wanted to keep a consistent dark theme for the icons.
+. The icons all came from [Font Awesome](https://fontawesome.com/). I wanted to keep a consistent dark theme for the icons.
 
 The favicon icon came from [**\_\_\_**]() and aptly shows the subject of the site.
 

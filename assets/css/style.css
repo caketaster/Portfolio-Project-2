@@ -145,9 +145,6 @@ h2 {
 .answer-text {
     padding: 20px 0;
     width: 100%;
-    /*bottom: 5%;
-    left: 5%;
-    right: 5%;*/
     margin: 20px auto;
     display: flex;
     flex-direction: row;
@@ -240,10 +237,18 @@ Maybe not needed - keep for later
 }
 
 /* Close button */
-#modal-close {}
+#modal-close {
+    background: rgb(53, 62, 118);
+        border-radius: 10%;
+        color: white;
+        cursor: pointer;
+        width: 100px;
+        justify-content: center;
+        cursor: pointer;
+}
 
-.close:hover,
-.close:focus {
+.modal-close:hover,
+.modal-close:focus {
     color: rgb(84, 64, 215);
     text-decoration: none;
     cursor: pointer;
