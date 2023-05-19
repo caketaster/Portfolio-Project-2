@@ -9,7 +9,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Carme&family=Denk+One&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Carme&family=Denk+One&display=swap"
+        rel="stylesheet">
 
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
@@ -18,7 +20,7 @@
     <a target="_blank" href="https://icons8.com/icon/6Lxue6xitfmD/monkey">Monkey</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
     -->
 
- <title>Sasquatch Quiz</title>
+    <title>Sasquatch Quiz</title>
 </head>
 
 <body>
@@ -30,39 +32,44 @@
         <div class="flex">
         </div>
         <div>
-          <h1>Welcome</h1>
-          <p>
-            Welcome to the Sasquatch Quiz, where you can test and increase your knowledge about the world's favourite cryptid. <br><br><br>
-            There are 3 question sections covering General Sasquatchery, the PGF (Patterson-Gimlin footage), and Sasquatch Science.<br><br><br>
-            Click on a topic to get started.<br><br><br>
-          </p>
+            <h1>Welcome</h1>
+            <p>
+                Welcome to the Sasquatch Quiz, where you can test and increase your knowledge about the world's
+                favourite cryptid. <br><br><br>
+                There are 3 question sections covering General Sasquatchery, the PGF (Patterson-Gimlin footage), and
+                Sasquatch Science.<br><br><br>
+                Click on a topic to get started.<br><br><br>
+            </p>
         </div>
-      
+
         <button id="btn-general" onclick="generalQs()">General</button>
         <button id="btn-PGF" onclick="pgfQs()">PGF</button>
         <button id="btn-science" onclick="scienceQs()">Science</button>
     </section>
-      
+
     <div class="overlay hidden"></div>
 
     <!-- Info modal -->
-    <div id="myModal" class="modal">
-        <section id="info flex hidden">
+    <section id="myModal" class="modal">
+        <div id="info flex hidden">
             <p id="info-text">
-                This number does not take into account the stories told by indiginous peoples of their encounters with sasquatch, and many encounters are not reported.
+                This number does not take into account the stories told by indiginous peoples of their encounters with
+                sasquatch, and many encounters are not reported.
             </p>
-        </section>
-    </div>
+        </div>
+        <button id="modal-close" onclick="">OK</button>
+    </section>
     <div class="quiz-section">
 
         <div class="questions flex-container">
-            <p id="qtext">Which US state has had the highest number of  reported sasquatch sightings (according to the BFRO [Bigfoot Field Research Organisation])</p> <br><br>
+            <p id="qtext">Which US state has had the highest number of reported sasquatch sightings (according to the
+                BFRO [Bigfoot Field Research Organisation])</p> <br><br>
             <div class="answer-text">
                 <span id="answer-a">A. Ohio</span>
                 <span id="answer-b">B. Illinois</span>
                 <span id="answer-c">C. Washington</span>
             </div>
-                
+
         </div>
 
         <div class="answers flex-container">

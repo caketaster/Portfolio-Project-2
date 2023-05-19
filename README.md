@@ -8,7 +8,7 @@ The Sasquatch Quiz is a multiple choice quiz site testing knowledge on the subje
 
 # Live site
 
-...
+<https://caketaster.github.io/Portfolio-Project-2/>
 
 # Repository
 
@@ -68,15 +68,18 @@ The favicon icon came from [**\_\_\_**]() and aptly shows the subject of the sit
 
 # Site Structure
 
-This is a single page site,
+This is a single page site with modals appearing to introduce the quiz and after each answer, and a final score modal telling you how you've done.
 
 # Wireframes
 
 Basic wireframes were created for desktop and mobile in Balsamiq, although the final design and function did change. <br>
-![Homepage wireframe mockup](assets/images/readme/.jpg)<br>
+![Homepage wireframe mockup](assets/images/readme/wireframes1.jpg)<br>
+
+Showing the info modal upon answer-click<br>
+![Homepage wireframe mockup](assets/images/readme/wireframes1.jpg)<br>
 
 I also made wireframes for the page on mobile: <br>
-![Homepage wireframe mockup, mobile screen](assets/images/readme/.jpg)
+![Homepage wireframe mockup, mobile screen](assets/images/readme/wireframes3.jpg)
 
 # Features
 
@@ -232,19 +235,19 @@ This website was deployed to GitHub Pages.
 The following steps were taken to deploy:
 
 1. Click the Settings cog on GitHub <br>
-   ![Screenshot 2023-03-25 at 10 53 42](https://user-images.githubusercontent.com/97278488/227685366-aa2acd1f-76de-4cbf-8d1f-ae794b745e2c.jpg)
+   ![Screenshot 2023-03-25 at 10 53 42](assets/images/readme/deploy1.jpg)
 
 2. In the left-hand nav, click on the Pages tab <br>
-   ![Screenshot 2023-03-25 at 10 57 03](https://user-images.githubusercontent.com/97278488/227686313-9f440a2f-a4b8-4d86-ba57-0f8143da7a07.jpg)
+   ![Screenshot 2023-03-25 at 10 57 03](assets/images/readme/deploy2.jpg)
 
 3. In the Branches section, select Main <br>
-   ![Screenshot 2023-03-25 at 11 01 19](https://user-images.githubusercontent.com/97278488/227687270-2369bfaa-76f0-4fc7-ac36-bc75ab97ff1b.jpg)
+   ![Screenshot 2023-03-25 at 11 01 19](assets/images/readme/deploy3.jpg)
 
 4. Click Save <br>
-   ![Screenshot 2023-03-25 at 11 01 48](https://user-images.githubusercontent.com/97278488/227687445-0de90a4f-d984-4845-986c-ddaaf7402abf.jpg)
+   ![Screenshot 2023-03-25 at 11 01 48](assets/images/readme/deploy4.jpg)
 
 5. Site is now deployed <br>
-   ![Screenshot 2023-03-25 at 11 05 34](https://user-images.githubusercontent.com/97278488/227688005-077f6d54-4af4-4d55-aadc-3075d38cf3c2.jpg)
+   ![Screenshot 2023-03-25 at 11 05 34](assets/images/readme/deploy5.jpg)
 
 # Credits
 
