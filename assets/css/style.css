@@ -198,7 +198,13 @@ h2 {
 
 /* check and edit all below */
 /* Info modal */
-.modal {
+
+#info {
+    display: none;
+
+}
+
+.myModal {
     font-family: 'Denk One', sans-serif;
     height: 70vh;
     width: 50vw;
@@ -239,12 +245,12 @@ Maybe not needed - keep for later
 /* Close button */
 #modal-close {
     background: rgb(53, 62, 118);
-        border-radius: 10%;
-        color: white;
-        cursor: pointer;
-        width: 100px;
-        justify-content: center;
-        cursor: pointer;
+    border-radius: 10%;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .modal-close:hover,

@@ -18,6 +18,19 @@ pgfButton.addEventListener('click', categoryClick);
 scienceButton.addEventListener('click', categoryClick);
 
 
+function categoryClick(event) {
+    let categoryName = event.target.textContent;
+    console.log(categoryName);
+    modal.classList.add("hidden");
+    overlay.classList.add("hidden");
+    questions = [];
+    for (let question of questionsList) {
+        if (question.section === categoryName) {
+            questions.push(question);
+        }
+    }
+    console.log(questions);
+}
 
 
 
