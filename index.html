@@ -42,9 +42,9 @@
             </p>
         </div>
 
-        <button id="btn-general" onclick="generalQs()">General</button>
-        <button id="btn-PGF" onclick="pgfQs()">PGF</button>
-        <button id="btn-science" onclick="scienceQs()">Science</button>
+        <button id="btn-general">General</button>
+        <button id="btn-PGF">PGF</button>
+        <button id="btn-science">Science</button>
     </section>
 
     <div class="overlay hidden"></div>
@@ -59,6 +59,8 @@
         </div>
         <button id="modal-close" onclick="">OK</button>
     </section>
+
+    <!-- Quiz section -->
     <div class="quiz-section">
 
         <div class="questions flex-container">
@@ -73,19 +75,20 @@
         </div>
 
         <div class="answers flex-container">
-            <span class="answer" id="A" onclick="check('A')">A</span>
-            <span class="answer" id="B" onclick="check('B')">B</span>
-            <span class="answer" id="C" onclick="check('C')">C</span>
+            <button class="answer" id="A" onclick="check('A')">A</button>
+            <button class="answer" id="B" onclick="check('B')">B</button>
+            <button class="answer" id="C" onclick="check('C')">C</button>
         </div>
 
     </div>
 
+    <!-- Score section -->
     <div class="score-tally">
         <p class="scores">Correct Answers: <span id="correct">0</span></p>
         <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
     </div>
 
-
+    <script src="assets/js/questions.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 

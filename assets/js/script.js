@@ -2,30 +2,41 @@
 
 const modal = document.querySelector(".intro-modal");
 const overlay = document.querySelector(".overlay");
-let questionText = document.getElementsByClassName("questions");
+let questionText = document.getElementsByClassName("qtext");
 
-window.onload = introModal()
+// window.onload = introModal() <-- don't need?
 function introModal() {
     modal.classList.remove("hidden");
     overlay.classList.remove("hidden");
-
 }
+// Call intro modal
+introModal();
 
-function generalQs() {
-    modal.classList.add("hidden");
-    overlay.classList.add("hidden");
-};
+//Listen for category button clicks
+generalButton.addEventListener("click", categoryClick);
+pgfButton.addEventListener('click', categoryClick);
+scienceButton.addEventListener('click', categoryClick);
 
-function pgfQs() {
-    modal.classList.add("hidden");
-    overlay.classList.add("hidden");
-    questionText.innerHTML = questions.PGF[0].question;
-};
 
-function scienceQs() {
-    modal.classList.add("hidden");
-    overlay.classList.add("hidden");
-};
+
+
+
+// Prev. functions - might not need?
+// function generalQs() {
+//     modal.classList.add("hidden");
+//     overlay.classList.add("hidden");
+// };
+
+// function pgfQs() {
+//     modal.classList.add("hidden");
+//     overlay.classList.add("hidden");
+//     questionText.innerHTML = questions.PGF[0].question;
+// };
+
+// function scienceQs() {
+//     modal.classList.add("hidden");
+//     overlay.classList.add("hidden");
+// };
 
 
 /**
