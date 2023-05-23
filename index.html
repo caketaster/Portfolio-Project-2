@@ -50,33 +50,34 @@
     <div class="overlay hidden"></div>
 
     <!-- Info modal -->
-    <section id="myModal" class="modal">
+    <section id="infoModal" class="info-modal hidden">
         <div id="info">
             <p id="info-text">
 
             </p>
+            <button id="modal-close">OK</button>
         </div>
-        <button id="modal-close" onclick="">OK</button>
+
     </section>
 
     <!-- Quiz section -->
     <div class="quiz-section">
 
         <div class="questions flex-container">
-            <p id="qtext">Which US state has had the highest number of reported sasquatch sightings (according to the
-                BFRO [Bigfoot Field Research Organisation])</p> <br><br>
+            <p id="qtext"></p>
+            <br><br>
             <div class="answer-text">
-                <span id="answer-a">A. Ohio</span>
-                <span id="answer-b">B. Illinois</span>
-                <span id="answer-c">C. Washington</span>
+                <span id="answer-a"></span>
+                <span id="answer-b"></span>
+                <span id="answer-c"></span>
             </div>
 
         </div>
 
         <div class="answers flex-container">
-            <button class="answer" id="A" onclick="check('A')">A</button>
-            <button class="answer" id="B" onclick="check('B')">B</button>
-            <button class="answer" id="C" onclick="check('C')">C</button>
+            <button class="answer" id="btn-A" onclick="check('A')">A</button>
+            <button class="answer" id="btn-B" onclick="check('B')">B</button>
+            <button class="answer" id="btn-C" onclick="check('C')">C</button>
         </div>
 
     </div>
@@ -86,6 +87,7 @@
         <p class="scores">Correct Answers: <span id="correct">0</span></p>
         <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
     </div>
+
 
     <script src="assets/js/questions.js"></script>
     <script src="assets/js/script.js"></script>
