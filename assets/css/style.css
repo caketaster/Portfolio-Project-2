@@ -47,9 +47,13 @@ body {
     border: 1px solid rgb(255, 255, 255)
 }
 
+.intro-btns {
+    justify-content: space-between;
+}
+
 #btn-general {
     background: rgb(53, 62, 118);
-    border-radius: 10%;
+    border-radius: 15%;
     color: white;
     cursor: pointer;
     width: 100px;
@@ -59,7 +63,7 @@ body {
 
 #btn-PGF {
     background: rgb(53, 62, 118);
-    border-radius: 10%;
+    border-radius: 15%;
     color: white;
     cursor: pointer;
     width: 100px;
@@ -69,7 +73,7 @@ body {
 
 #btn-science {
     background: rgb(53, 62, 118);
-    border-radius: 10%;
+    border-radius: 15%;
     color: white;
     cursor: pointer;
     width: 100px;
@@ -123,6 +127,7 @@ h2 {
 
 .questions {
     margin: 20px auto;
+    height: 50vh;
     max-height: 60vh;
     width: 90%;
     background-color: rgb(128, 128, 128, 0.6);
@@ -249,4 +254,29 @@ Maybe not needed - keep for later
     color: rgb(84, 64, 215);
     text-decoration: none;
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .intro-modal,
+    .info-modal {
+        width: 80vw;
+        margin: 0 10%;
+    }
+
+    .answers {
+        height: 40%;
+        margin: 20px auto;
+        bottom: 5%;
+        max-height: 20vh;
+    }
+}
+
+@media screen and (max-height: 550px) {
+
+    .intro-modal,
+    .info-modal {
+        font-size: 60%;
+    }
 }

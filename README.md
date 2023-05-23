@@ -27,7 +27,7 @@ Benjamin Norman <br>
 
 # Target Audience
 
-The target is audience is anyone who's interested in the phenomenon, those who want to learn more about it, plus those who already feel themselves knowledgeable on the subject.
+The target is audience is anyone who's interested in the phenomenon, those who want to learn more about it, plus those who already feel themselves knowledgeable on the subject. The questions are weighted toward experts, though hopefully those new to the phenomenon can learn something too.
 
 # Project Goals
 
@@ -79,7 +79,7 @@ Showing the info modal upon answer-click<br>
 ![Homepage wireframe mockup](assets/images/readme/wireframes1.jpg)<br>
 
 I also made wireframes for the page on mobile: <br>
-![Homepage wireframe mockup, mobile screen](assets/images/readme/wireframes3.jpg)
+![Homepage wireframe mockup, mobile screen](assets/imags/readme/wireframes3.jpg)
 
 # Features
 
@@ -88,7 +88,7 @@ I also made wireframes for the page on mobile: <br>
 ### Homepage
 
 An intro modal displays on pageload giving a brief introduction and the 3 quiz sections that you can choose from (screenshot pls). An overlay blurs the screen background.
-After each question is answered an info modal appears giving the correct answer and more information about the answer. The score/incorrect score tally increments. On complteing your quiz section a final modal appears giving your score and a message. The page then resets for another turn. 
+After each question is answered an info modal appears giving the correct answer and more information about the answer. The score/incorrect score tally increments. On complteing your quiz section a final modal appears giving your score and a message. The page then resets for another turn.
 
 ### Thank you page
 
@@ -113,11 +113,14 @@ After each question is answered an info modal appears giving the correct answer 
 - **New questions added** <br>
   Each section is currently a little short, and there may not be much re-play value. In order to attract more repeat plays more questions could be added, or even more sections.
 
+- **Answers displayed within the buttons** <br>
+  I made a design choice to leave the buttons as A, B and C and have the options display above the buttons. This is helpful for media queries, as the buttons can shrink with no issues. The most attractive and intuitive way is probably to embed the answers in the buttons, and in future I'd definitely consider changing the format to allow this.
+
 - **Better pictures** <br>
-  Aware of copyright issues, I was conservative in my choice of imagery. I believe better, more descriptive images could have been chosen to increase engagement.
+  Aware of copyright issues, I was conservative in my choice of imagery. I believe better, more descriptive images could have been chosen to increase engagement. Some people, although they've probably seen the Patterson-Gimlin footage, may not be aware that that's what it's called, so a good descriptive photo somewhere would be a major help.
 
 - **Images in modals** <br>
-  Again I was mindful of possible copyright issues and of consistency across the site, so did not insert images into the info modals, but images exist that would explain the answers in a visual way (e.g. the Jerry Crews casts, an image of the Skookum cast, a great-ape skull with a sagittal crest). Inserting one good image into each info modal would be informative and engaging.
+  Again I was mindful of possible copyright issues and of consistency across the site, so did not insert images into the info modals, but images exist that would explain the majority of the answers in a visual way (e.g. the Jerry Crews casts, an image of the Skookum cast, a great-ape skull with a sagittal crest). Inserting one good image into each info modal would be informative and engaging.
 
 - **User feedback page** <br>
   Including a contact form would enable direct user feedback and submission of new questions, which would help with continuous site imporvement, growth and engagement.
