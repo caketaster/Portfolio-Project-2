@@ -54,7 +54,7 @@ buttonB.addEventListener('click', checkAnswer);
 buttonC.addEventListener('click', checkAnswer);
 modalClose.addEventListener('click', hideInfoModal);
 
-
+// Choose category of questions
 function categoryClick(event) {
     let categoryName = event.target.textContent;
     console.log(categoryName);
@@ -67,6 +67,32 @@ function categoryClick(event) {
         }
     }
     console.log(questions);
+}
+
+// Display each question
+function displayQuestion() {
+    let questionData = questions[index];
+    qtext.textContent = questionData.question;
+    answerAText.textContent = questionData.A;
+    answerBText.textContent = questionData.B;
+    answerCText.textContent = questionData.C;
+}
+
+// Check if answer is correct
+function checkAnswer(event) {
+    let option = event.target.textContent;
+    let questionData = questions[index];
+    let selectedAnswer = questionData[option];
+    let correctAnswer = questionData.correct;
+    if (selectedAnswer === correctAnswer) {
+        correctCount++;
+        correctCountText.textContent = correctCount;
+    }
+    else {
+        incorrectCount++;
+        incorrectCountText.textContent = incorrectCount;
+    }
+    showInfoModal();
 }
 
 
