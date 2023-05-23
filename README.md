@@ -46,13 +46,13 @@ As a site user I want to:
 
 ## Colours
 
-I wanted a forest-feel to the backdrop and a basic but colourful layout to the quiz section. The main colours seen ire light browns, dark browns and greens, due to the background chosen. Semi-opaque divs let the colour come through whilst still leaving the test easily readable.
+I wanted a forest-feel to the backdrop and a basic but colourful layout to the quiz section. The main colours seen ire light browns, dark browns and greens, due to the background chosen. Semi-opaque divs let the colour come through whilst still leaving the text easily readable.
 
 ![The basic colour palette used for the site](assets/images/readme/.jpg)
 
 ## Typography
 
-I used 3 fonts, Alegreya Sans SC for the main heading, Denk One for the sub-heading and Carme for the main body text. Without resorting to a stereotypical cartoonish font I did want something slightly 'fun' for the main heading. I used [Fontjoy](https://fontjoy.com/) to create the pairing. Ultimately I went on feeling as to what fonts would work best and fit the mood of the site. I stayed with white text for easy readability.
+I used 3 fonts, Alegreya Sans SC for the main heading, Denk One for the sub-heading and Carme for the main body text. Without resorting to a stereotypical cartoonish font I did want something slightly 'fun' for the main heading and modal text, something that elicited a more pre-technological time. I used [Fontjoy](https://fontjoy.com/) to create the pairing. Ultimately I went on feeling as to what fonts would work best and fit the mood of the site. I stayed with white text for easy readability.
 
 ![My font pairing on Fontjoy.com](assets/images/readme/fonts.jpg)
 
@@ -62,7 +62,7 @@ As this is a quiz site I kept the imagery basic. The background has a silhouette
 
 . The icons all came from [Font Awesome](https://fontawesome.com/). I wanted to keep a consistent dark theme for the icons.
 
-The favicon icon came from [**\_\_\_**]() and aptly shows the subject of the site.
+The favicon icon came from [icons8](https://icons8.com) and aptly shows the subject of the site.
 
 ## Animations and Transitions
 
@@ -87,40 +87,44 @@ I also made wireframes for the page on mobile: <br>
 
 ### Homepage
 
-...
+An intro modal displays on pageload giving a brief introduction and the 3 quiz sections that you can choose from (screenshot pls). An overlay blurs the screen background.
+After each question is answered an info modal appears giving the correct answer and more information about the answer. The score/incorrect score tally increments. On complteing your quiz section a final modal appears giving your score and a message. The page then resets for another turn. 
 
 ### Thank you page
 
-The form redirects to a static Thank you page with a clickable message (reading 'thank you') that returns you to the home page, plus a short message on responding to enquiries. This link shares the same style and glow as the logo text.
+//The form redirects to a static Thank you page with a clickable message (reading 'thank you') that returns you to the home page, plus a short message on responding to enquiries. This link shares the same style and glow as the logo text.
 
 ![thank you link glow](assets/images/readme/thanks-glow.jpg)
 
 ### 404 page
 
-404 page created with a link back to the home page, as per the Thank you page.
+//404 page created with a link back to the home page, as per the Thank you page.
 
 ![404 link glow](assets/images/readme/404-glow.jpg)
 
 ## Future Features
 
-- **Click Image for Full Screen Overlay** <br>
-  I would love the images to expand to full-screen on being clicked (or possibly when hovered over),
+- **Hold name and score for each section** <br>
+  The page could in future hold your score for each section, so you could take each section in turn and get a combined score.
 
-- **Auto populate contact form with image of interest** <br>
-  I'd like to add a UX component to add selected images to the contact form. A user could click on each image they were interested in and the image numbers would populate the contact form. This would save the user having to remember specific image numbers before filling the contact form in. I believe this would involve javascript abilities that I do not yet possess.
+- **Compile online scores list** <br>
+  Scores could be held in an online database so players could compare how they score against other people who've played elsewhere.
 
-- **Contact form to have a different focus for different users** <br>
-  From user feedback, I realised that a possible future improvement would be a contact page with subsections depending on the nature of the query - one more sales-focused (with print sizes, paper quality, pricing etc.) and another closer to what's presented now - a form with a simple text area for general contact.
+- **New questions added** <br>
+  Each section is currently a little short, and there may not be much re-play value. In order to attract more repeat plays more questions could be added, or even more sections.
 
-- **Play with Gallery choices** <br>
-  The numbers that appear on hover in the Gallery sometimes do not sit nicely on the images (in the tablet screen size in particular), and this is something that could be improved. If all images had the same aspect ratio this could be solved relatively easily, in future I would consider separate galleries depending on aspect ratio, which would make this issue simpler to work on, and give users choice based on image layout (for printing etc). Having a gallery-style where the column number would shrink with the screen size could also mitigate this issue - something I could implement in future.
+- **Better pictures** <br>
+  Aware of copyright issues, I was conservative in my choice of imagery. I believe better, more descriptive images could have been chosen to increase engagement.
+
+- **Images in modals** <br>
+  Again I was mindful of possible copyright issues and of consistency across the site, so did not insert images into the info modals, but images exist that would explain the answers in a visual way (e.g. the Jerry Crews casts, an image of the Skookum cast, a great-ape skull with a sagittal crest). Inserting one good image into each info modal would be informative and engaging.
+
+- **User feedback page** <br>
+  Including a contact form would enable direct user feedback and submission of new questions, which would help with continuous site imporvement, growth and engagement.
 
 - **Extra media queries for edge cases** <br>
-  All pages are responsive down to 320px wide (which very few modern phones are) and look good on any larger screen sizes (although the contact page starts to look slightly spare above approximately 1500px wide - though all functionality is retained). As a future feature I could set a media query for extra-wide screens that would mitigate the expanse of space on the screen on extra-wide monitors.
+  // All pages are responsive down to 320px wide (which very few modern phones are) and look good on any larger screen sizes (although the contact page starts to look slightly spare above approximately 1500px wide - though all functionality is retained). As a future feature I could set a media query for extra-wide screens that would mitigate the expanse of space on the screen on extra-wide monitors.
   The pages also don't look ideal on very small mobile screens, this could be improved upon.
-
-- **Optimise Gallery image sizes** <br>
-  The gallery can be slow to load, due to large image sizes. This is a trade-off - I want to show images in high quality, but the larger the image (and the more images I have), the slower they will load. I chose to stick with large images in my assets folder but use jpg, as a relatively compact file size. I have cut the image sizes to be no larger than 300kb per photo, though this is probably still excessive. In future I could tweak this to optimise speed whilst keeping quality at a relatively high level, or split the gallery onto different pages depending on subject, format, camera and so on to have shorter loading times per page.
 
 # Testing
 
@@ -130,19 +134,19 @@ The site passes all tests from the following template (adapted for use on my own
 
 ## User Testing
 
-I sent the site to be tested by a few photography friends. Their feedback is below, and what I did (if anything) with the feedback:
+// I sent the site to be tested by a few photography friends. Their feedback is below, and what I did (if anything) with the feedback:
 
 # Validation Testing
 
 ## CSS Validation
 
-No errors were returned when passing through the official HTML validator
+// No errors were returned when passing through the official HTML validator
 ![CSS validation](assets/images/readme/css-valid.jpg)
 <https://jigsaw.w3.org/css-validator/>
 
 ## HTML Validation
 
-No errors were returned when passing through the official HTML validator
+// No errors were returned when passing through the official HTML validator
 ![HTML validation](assets/images/readme/html-index.jpg)
 ![HTML validation](assets/images/readme/html-gallery.jpg)
 ![HTML validation](assets/images/readme/html-contact.jpg)
@@ -178,11 +182,11 @@ Testing therefore focused on Chrome at various resolutions. I do not have a Brow
 | DevTools emulator: Galaxy Fold        | Chrome 112.0.5615.49   | MacOS 10.15.7      | 280 x 653px                                   |
 | DevTools emulator: Nest Hub           | Chrome 112.0.5615.49   | MacOS 10.15.7      | 1024 x 600px                                  |
 
-On Safari on desktop the menu nav bar responds differently to Chrome. When hovered, each menu item shifts the position of its neighbours slightly (although there is no effect on functionality). The Gallery also renders as one long vertical column, even on wider screens.
+// On Safari on desktop the menu nav bar responds differently to Chrome. When hovered, each menu item shifts the position of its neighbours slightly (although there is no effect on functionality). The Gallery also renders as one long vertical column, even on wider screens.
 
 ![The Gallery page on Safari, showing single column gallery images and nav bar oddity](assets/images/readme/safari-gallery.jpg)
 
-On Galaxy Fold there is a warning message saying the device is not suitable for viewing the page optimally, but the page does work fine, despite the contact form and social links being a little close.
+// On Galaxy Fold there is a warning message saying the device is not suitable for viewing the page optimally, but the page does work fine, despite the contact form and social links being a little close.
 
 ![Message displayed on a Galaxy Fold phone](assets/images/readme/galaxy-fold.jpg)
 
@@ -190,7 +194,7 @@ Given the chance, and particularly as the Gallery on Safari responds differently
 
 ## Lighthouse testing
 
-All testing was performed on an Incognito page in Chrome. Although Performance can vary, the largest issue was the Gallery performance on both mobile and desktop, due to the amount of large, fairly high quality images. To mitigate this I reduced the sizes of all the larger images and increased Performance scores by 16 and 24 respectively, but further trimming of size would also help these scores.
+// All testing was performed on an Incognito page in Chrome. Although Performance can vary, the largest issue was the Gallery performance on both mobile and desktop, due to the amount of large, fairly high quality images. To mitigate this I reduced the sizes of all the larger images and increased Performance scores by 16 and 24 respectively, but further trimming of size would also help these scores.
 
 Homepage (desktop)<br>
 ![Homepage desktop lighthouse validation](assets/images/readme/lh-home-desk.jpg)<br>
@@ -219,11 +223,11 @@ Thank you page (mobile)<br>
 
 ## Wave Testing
 
-I ran the site through [Wave](https://wave.webaim.org/) and the site returned
+// I ran the site through [Wave](https://wave.webaim.org/) and the site returned
 
 # Defects
 
-I did not track my defects as often as I should have at this early stage, but [the following defects were tracked and closed](https://github.com/caketaster/Portfolio-Project-1---still-life/issues)
+// I did not track my defects as often as I should have at this early stage, but [the following defects were tracked and closed](https://github.com/caketaster/Portfolio-Project-1---still-life/issues)
 
 ## Outstanding Defects
 
@@ -251,7 +255,7 @@ The following steps were taken to deploy:
 
 # Credits
 
-I used the Love-Maths walkthrough project as a
+// I used the Love-Maths walkthrough project as a
 
 - [Nav bar](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/637be1a2e3b84b25aa33f3ab4d98603c/)
 - [Hero-image zoom](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/)

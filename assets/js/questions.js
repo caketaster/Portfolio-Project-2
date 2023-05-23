@@ -170,7 +170,7 @@ const questionsList = [
         B: "B: Bluff Creek",
         C: "C: South Bend",
         correct: "B: Bluff Creek",
-        info: "Bluff Creek is a remote wooded area in northern CaliforniA:"
+        info: "Bluff Creek is a remote wooded area in northern California"
     },
     {
         section: "Sasquatch science",
