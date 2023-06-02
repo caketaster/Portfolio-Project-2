@@ -95,3 +95,21 @@ function checkAnswer(event) {
     showInfoModal();
 }
 
+// Info modal
+function showInfoModal() {
+    let questionData = questions[index];
+    infoText.textContent = "The correct answer is" + questionData.correct + questionData.info;
+    displayInfoModal();
+}
+
+// Next question
+function goToNextQuestion() {
+    index++;
+    if (index < questions.length) {
+        displayQuestion();
+    }
+    else {
+
+    }
+}
+
