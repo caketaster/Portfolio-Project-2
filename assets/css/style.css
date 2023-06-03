@@ -25,7 +25,11 @@ body {
     font-size: 350%;
     color: white;
     margin-bottom: 10px;
+    text-shadow: 2px 3px black;
+}
 
+h2 {
+    text-shadow: 2px 2px black;
 }
 
 .intro-modal,
@@ -81,7 +85,17 @@ body {
     cursor: pointer;
 }
 
-/* Add to info modals later */
+#modal-close, #try-again {
+    background: rgb(53, 62, 118);
+    border-radius: 15%;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* blur overlay behind modals */
 .overlay {
     position: fixed;
     top: 0;
@@ -142,10 +156,11 @@ h2 {
 
 #qtext {
     padding: 10%;
-    font-size: larger;
+    font-size: 150%;
     vertical-align: middle;
     line-height: 180%;
     text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;;
 }
 
 .answer-text {
@@ -185,12 +200,12 @@ h2 {
     opacity: 0.9;
     margin: auto;
     font-size: 150%;
-    background-color: rgb(53, 62, 118);
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-
+    background: linear-gradient(rgb(34, 45, 120), rgb(75, 77, 97));
+    
 }
 
 .score-tally {
@@ -200,55 +215,13 @@ h2 {
     padding: 0 1.2rem;
 }
 
-/* check and edit all below */
-/* Info modal */
-
-#info {
-    /* display: none; */
-
-}
-
-/* .infoModal {
-    font-family: 'Denk One', sans-serif;
-    height: 70vh;
-    width: 50vw;
-    position: absolute;
-    z-index: 2;
-    text-align: center;
-    margin: 0 25%;
-    padding: 0 5%;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    top: 20%;
-    background-image: url("../images/forest.jpeg");
-    border: 1px solid rgb(255, 255, 255)
-} */
-
-/* 
-Maybe not needed - keep for later
-#info {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    color: slateblue;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-} */
-
 #info-text {
     width: 90%;
     padding: 20px;
 }
 
-/* Close button */
-#modal-close {}
-
+.answer:hover,
+.intro-btns:hover,
 .close:hover,
 .close:focus {
     color: rgb(84, 64, 215);
@@ -270,6 +243,22 @@ Maybe not needed - keep for later
         margin: 20px auto;
         bottom: 5%;
         max-height: 20vh;
+    }
+
+    .answer-text {
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-height: 850px) {
+    #qtext {
+        font-size: 140%;
+        padding: 0;
+    } 
+    .questions {
+        margin: 0;
     }
 }
 

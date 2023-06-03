@@ -1,9 +1,7 @@
-/*jshint esversion: 6*/
-
 const questionsList = [
     {
         section: "General",
-        question: "Which US state has had the highest number of  reported sasquatch sightings (according to the BFRO [Bigfoot Field Research Organisation])",
+        question: "Which US state has had the highest number of  reported sasquatch sightings (according to the Bigfoot Field Research Organisation)",
         A: "A: Ohio",
         B: "B: Illinois",
         C: "C: Washington",
@@ -12,7 +10,7 @@ const questionsList = [
     },
     {
         section: "General",
-        question: "In which year did Jerry Crew make a cast of a 16 inch sasquatch footprint, bringing the creature to popular attention and helping to christen the name 'Bigfoot'?",
+        question: "In which year did Jerry Crew make a cast of a 16 inch footprint, bringing the creature to popular attention and helping christen the name 'Bigfoot'?",
         A: "A: 1949",
         B: "B: 1958",
         C: "C: 1962",
@@ -57,15 +55,6 @@ const questionsList = [
     },
     {
         section: "General",
-        question: "Which family adopted Bigfoot in the 1987 movie 'Harry and the...:' ",
-        A: "A: Freemans",
-        B: "B: Dahindens",
-        C: "C: Hendersons",
-        correct: "C: Hendersons",
-        info: "The movie also spawned a TV spin-off of the same name."
-    },
-    {
-        section: "General",
         question: "In which US state was the first law prohibiting the killing of sasquatch passed?",
         A: "A: Washington",
         B: "B: Texas",
@@ -75,7 +64,7 @@ const questionsList = [
     },
     {
         section: "General",
-        question: "According to the Bigfoot Field Research Organisation, approximately how many sasquatch sightings have been recorded in The USA in the last 150 years?",
+        question: "According to the BFRO, roughly how many sasquatch sightings have been recorded in The USA in the last 150 years?",
         A: "A: 2500",
         B: "B: 3600",
         C: "C: 5800",
@@ -93,12 +82,12 @@ const questionsList = [
     },
     {
         section: "General",
-        question: "Known for their extensive research into sasquatch, Grover Krantz and Rene Dahinden were two of the 'Four Horsemen of Sasquatchery'. Who of the following was NOT another member of this group?",
+        question: "Grover Krantz and Rene Dahinden were two of the 'Four Horsemen of Sasquatchery'. Who of the following was NOT a member of this group?",
         A: "A: John Green",
         B: "B: Cliff Barackman",
         C: "C: Peter Byrne",
         correct: "B: Cliff Barackman",
-        info: "Peter Byrne is the last surviving member of the Four Horsemen. Cliff Barackman is a presenter of the popular Finding Bigfoot TV show."
+        info: "Peter Byrne is the last surviving member of the Four Horsemen, known for their extensive research into the phenomenon. Cliff Barackman is a presenter of the popular Finding Bigfoot TV show."
     },
     {
         section: "PGF",
@@ -125,7 +114,16 @@ const questionsList = [
         B: "B: Bill Munns",
         C: "C: Paul Freeman",
         correct: "B: Bill Munns",
-        info: "Munns has performed the most comprehensive analysis yet of the footage, utilising 7 first-generation copies of the original lost film."
+        info: "Munns has performed the most comprehensive analysis yet of the footage, utilising at least 7 first-generation copies of the original lost film."
+    },
+    {
+        section: "PGF",
+        question: "What disease did Roger Patterson die of?",
+        A: "A: Cirrhosis of the liver",
+        B: "B: Hodgkin's lymphoma",
+        C: "C: Heart disease",
+        correct: "B: Hodgkin's lymphoma",
+        info: "Patterson passed away in January 1972. He maintained the validity of the footage until his death."
     },
     {
         section: "PGF",
@@ -134,7 +132,7 @@ const questionsList = [
         B: "B: 1108",
         C: "C: 566",
         correct: "A: 954",
-        info: "Some controversy exists about the number of frames; 2 'extra' frames were discovered during Bill Munns' analysis, making the total 954, although 952 is also generally accepted."
+        info: "Some controversy exists about the number of frames; 2 'extra' frames were discovered during Bill Munns' analysis, making the total 954, although 952 is also widely accepted."
     },
     {
         section: "PGF",
@@ -167,13 +165,22 @@ const questionsList = [
         section: "PGF",
         question: "In which area of California was the PGF filmed?",
         A: "A: Saltspring Island",
-        B: "B: Bluff Creek",
-        C: "C: South Bend",
-        correct: "B: Bluff Creek",
-        info: "Bluff Creek is a remote wooded area in northern California"
+        B: "B: South Bend",
+        C: "C: Bluff Creek",
+        correct: "C: Bluff Creek",
+        info: "Bluff Creek is a remote wooded area in northern California."
     },
     {
-        section: "Sasquatch science",
+        section: "PGF",
+        question: "How many times did Roger Patterson start and stop the camera during the course of the footage?",
+        A: "A: 6 times",
+        B: "B: 4 times",
+        C: "C: 2 times",
+        correct: "A: 6 times",
+        info: "Bill Munns' analysis revealed that the camera started and stopped 6 times as Roger ran, crossed the creek, and then steadied himself to shoot the footage."
+    },
+    {
+        section: "Science",
         question: "Which ancient hominid is sasquatch most commonly thought to be related to?",
         A: "A: Gigantopithicus Blacki",
         B: "B: Meganthropus",
@@ -182,16 +189,16 @@ const questionsList = [
         info: "Gigantopithicus Blacki was a giant ape living in Asia roughly 2 million to 350,000 years ago. Dr Grover Krantz hypothesised that sasquatch is an extant relative and that it reached continental America by crossing the Bering Straits when there was a land-bridge."
     },
     {
-        section: "Sasquatch science",
+        section: "Science",
         question: "Which of these anatomical features is sasquatch NOT said to possess?",
         A: "A: Mid-tarsal break",
         B: "B: Sagittal crest",
-        C: "C: Opposable thumb",
-        correct: "C: Opposable thumb",
-        info: "Dr Jeffrey Meldrum analysed sasquatch footprint casts and hypothesised a mid-tarsal break, a feature that existed in early hominids that modern humans no longer possess. Great apes often have a sagittal crest, a bony skull protuberance that gives the head a cone-line appearance and supports powerful jaws."
+        C: "C: Rhinarium",
+        correct: "C: Rhinarium",
+        info: "Dr Jeffrey Meldrum hypothesised a mid-tarsal break from cast analysis, a feature present in early hominids that modern humans no longer possess. Great apes often have a sagittal crest, a bony skull protuberance that gives the head a cone-like appearance and supports powerful jaws."
     },
     {
-        section: "Sasquatch science",
+        section: "Science",
         question: "How is the walking style of sasquatch scientifically described?",
         A: "A: Compliant gait",
         B: "B: Antalgic gait",
@@ -200,7 +207,7 @@ const questionsList = [
         info: "The compliant gait is characterised by a bent-knee stride, high lifting of the feet and the footprints being arranged in a straight line rather than being staggered, among other features."
     },
     {
-        section: "Sasquatch science",
+        section: "Science",
         question: "Which scientific rule, which states that mammals tend to grow larger in colder climates, do sasquatch footprints appear to adhere to?",
         A: "A: Moore's law",
         B: "B: Bergmann's rule",
@@ -209,8 +216,8 @@ const questionsList = [
         info: "Larger sasquatch footprints do tend to be found at higher latitudes, following Bergmann's rule."
     },
     {
-        section: "Sasquatch science",
-        question: "In 1969 Grover Krantz examined casts of a deformed sasquatch foot, which he believed could not have been faked. What is this cast known as?",
+        section: "Science",
+        question: "In 1969 Grover Krantz examined a cast of a deformed sasquatch foot, which he believed could not have been faked. What is this cast known as?",
         A: "A: The Cripplefoot cast",
         B: "B: The Limpsquatch cast",
         C: "C: The Hobblefoot cast",
@@ -218,7 +225,7 @@ const questionsList = [
         info: "The cast appears to show the congenital condition 'metatarsus adductus', more commonly known as 'skew foot'."
     },
     {
-        section: "Sasquatch science",
+        section: "Science",
         question: "Which famous cast is theorised to show the body imprint of a sasquatch lying in the mud?",
         A: "A: The Mount Adams Cast",
         B: "B: The Skookum Cast",
@@ -227,16 +234,16 @@ const questionsList = [
         info: "The Skookum Cast was made in Mount Adams, Washington. Among the scientists who examined it were Dr John Bindernagel and Dr Jeffrey Meldrum."
     },
     {
-        section: "Sasquatch science",
+        section: "Science",
         question: "At which university is Dr Jeffrey Meldrum a professor?",
         A: "A: Idaho State University",
         B: "B: Brigham Young University",
         C: "C: Stony Brook University",
         correct: "A: Idaho State University",
-        info: "Dr Meldrum received his Undergraduate and Masters degrees from Brigham Young and his Doctorate from Stony Brook, and lectures at Idaho State."
+        info: "Prominent Bigfoot researcher Dr Meldrum received his Undergraduate and Masters degrees from Brigham Young and his Doctorate from Stony Brook, and lectures at Idaho State."
     },
     {
-        section: "Sasquatch science",
+        section: "Science",
         question: "What medical pathology is supposedly visible on the creature in the footage?",
         A: "A: Dislocated shoulder",
         B: "B: Fractured ulna",
@@ -244,4 +251,16 @@ const questionsList = [
         correct: "C: Herniation of the thigh",
         info: "Bill Munns first described the possible herniation on frame 353 and MK Davis performed further video analysis of that section of the footage."
     }
-];
+    ]
+
+
+
+    // {
+    //     section: "General",
+    //     question: "Which family adopted Bigfoot in the 1987 movie 'Harry and the...:' ",
+    //     A: "A: Freemans",
+    //     B: "B: Dahindens",
+    //     C: "C: Hendersons",
+    //     correct: "C: Hendersons",
+    //     info: "The movie also spawned a TV spin-off of the same name."
+    // },
