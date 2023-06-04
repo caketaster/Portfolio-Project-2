@@ -2,9 +2,9 @@
 
 ## Outline
 
-The Sasquatch Quiz is a multiple choice quiz site testing knowledge on the subject of sasquatch/bigfoot/the North American Wood Ape. Most of the questions are medium to high level although some are far easier. so that almost everyone will be able to get a few right but only true devotees of the subject will get very high scores .
+The Sasquatch Quiz is a multiple choice quiz site testing knowledge on the subject of sasquatch/bigfoot/the North American Wood Ape. Most of the questions are medium to high level difficulty - it's a quiz for people with a fairly deep interest in the subject matter rather than for beginners.
 
-![Responsiveness on a variety of screen sizes](assets/images/readme/responsive.jpg)
+..![Responsiveness on a variety of screen sizes](assets/images/readme/responsive.jpg)
 
 # Live site
 
@@ -21,13 +21,13 @@ Benjamin Norman <br>
 
 # Table of Contents
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+..<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # UX
 
 # Target Audience
 
-The target is audience is anyone who's interested in the phenomenon, those who want to learn more about it, plus those who already feel themselves knowledgeable on the subject. The questions are weighted toward experts, though hopefully those new to the phenomenon can learn something too.
+The target is audience is anyone who's interested in the phenomenon, those who want to learn more about it, plus those who already feel themselves knowledgeable on the subject. The questions are weighted toward experts, though hopefully those newer to the phenomenon can learn something too.
 
 # Project Goals
 
@@ -48,27 +48,25 @@ As a site user I want to:
 
 I wanted a forest-feel to the backdrop and a basic but colourful layout to the quiz section. The main colours seen ire light browns, dark browns and greens, due to the background chosen. Semi-opaque divs let the colour come through whilst still leaving the text easily readable.
 
-![The basic colour palette used for the site](assets/images/readme/.jpg)
+..![The basic colour palette used for the site](assets/images/readme/.jpg)
 
 ## Typography
 
-I used 3 fonts, Alegreya Sans SC for the main heading, Denk One for the sub-heading and Carme for the main body text. Without resorting to a stereotypical cartoonish font I did want something slightly 'fun' for the main heading and modal text, something that elicited a more pre-technological time. I used [Fontjoy](https://fontjoy.com/) to create the pairing. Ultimately I went on feeling as to what fonts would work best and fit the mood of the site. I stayed with white text for easy readability.
+I used 3 fonts, Alegreya Sans SC for the main heading, Denk One for the sub-heading and question text and Carme for the answer text text. Without resorting to a stereotypical cartoonish font I did want something slightly 'fun' for the main heading and modal text, something that elicited a more pre-technological time. I used [Fontjoy](https://fontjoy.com/) to create the pairing. Ultimately I went on feeling as to what fonts would work best and fit the mood of the site. I stayed with white text for easy readability.
 
 ![My font pairing on Fontjoy.com](assets/images/readme/fonts.jpg)
 
 ## Imagery
 
-As this is a quiz site I kept the imagery basic. The background has a silhouetted sasquatch, all images are creative commons or free to use (from Google searches).
+As this is a quiz site I kept the imagery basic. The background has a silhouetted sasquatch in a forest, all images are creative commons or free to use (from Google searches).
 
-. The icons all came from [Font Awesome](https://fontawesome.com/). I wanted to keep a consistent dark theme for the icons.
+.. The icons all came from [Font Awesome](https://fontawesome.com/). I wanted to keep a consistent dark theme for the icons.
 
 The favicon icon came from [icons8](https://icons8.com) and aptly shows the subject of the site.
 
-## Animations and Transitions
-
 # Site Structure
 
-This is a single page site with modals appearing to introduce the quiz and after each answer, and a final score modal telling you how you've done.
+This is a single page site with modals appearing to introduce the quiz and after each question to give the correct answer and more information, and a final score modal telling you how you've done.
 
 # Wireframes
 
@@ -87,69 +85,64 @@ I also made wireframes for the page on mobile: <br>
 
 ### Homepage
 
-An intro modal displays on pageload giving a brief introduction and the 3 quiz sections that you can choose from (screenshot pls). An overlay blurs the screen background.
-After each question is answered an info modal appears giving the correct answer and more information about the answer. The score/incorrect score tally increments. On complteing your quiz section a final modal appears giving your score and a message. The page then resets for another turn.
-
-### Thank you page
-
-//The form redirects to a static Thank you page with a clickable message (reading 'thank you') that returns you to the home page, plus a short message on responding to enquiries. This link shares the same style and glow as the logo text.
-
-![thank you link glow](assets/images/readme/thanks-glow.jpg)
-
-### 404 page
-
-//404 page created with a link back to the home page, as per the Thank you page.
-
-![404 link glow](assets/images/readme/404-glow.jpg)
+An intro modal displays on pageload giving a brief introduction and the 3 quiz sections that you can choose from (..screenshot pls). An overlay blurs the screen background (a slight nod to the blurry photos usually associated with sasquatch).
+After each question is answered an info modal appears giving the correct answer and more information about the answer (..screenshot pls). The score/incorrect score tally increments. On complteing your quiz section a final modal appears giving your score and a message. There are separate messages for any score over 4/10 and a single message for scores 3 and under. The page then resets for another turn.
 
 ## Future Features
 
 - **Hold name and score for each section** <br>
-  The page could in future hold your score for each section, so you could take each section in turn and get a combined score.
+  The page could in future hold your score for each section, so you could take each section in turn and get a combined total score.
 
 - **Compile online scores list** <br>
   Scores could be held in an online database so players could compare how they score against other people who've played elsewhere.
 
 - **New questions added** <br>
-  Each section is currently a little short, and there may not be much re-play value. In order to attract more repeat plays more questions could be added, or even more sections.
+  Each section is currently a little short, and there may not be much re-play value. In order to attract more repeat plays more questions could be added, or even more sections. I'd especially like to add a Beginners' question section, with simpler questions based more on sasquatch in popular culture, as more of an on-ramp.
 
 - **Answers displayed within the buttons** <br>
-  I made a design choice to leave the buttons as A, B and C and have the options display above the buttons. This is helpful for media queries, as the buttons can shrink with no issues. The most attractive and intuitive way is probably to embed the answers in the buttons, and in future I'd definitely consider changing the format to allow this.
+  I made a design choice to leave the buttons as A, B and C and have the options display above the buttons. This is helpful for media queries, as the buttons can shrink with few issues as they don't contain any text apart from a single letter each. The most attractive and intuitive way is probably to embed the answers in the buttons, and in future I'd definitely consider changing the format to allow this (perhaps by stacking the buttons vertically, allowing a reasonable amount of text in each).
 
 - **Better pictures** <br>
-  Aware of copyright issues, I was conservative in my choice of imagery. I believe better, more descriptive images could have been chosen to increase engagement. Some people, although they've probably seen the Patterson-Gimlin footage, may not be aware that that's what it's called, so a good descriptive photo somewhere would be a major help.
+  Aware of copyright issues, I was conservative in my choice of imagery. I believe better, more descriptive images could have been chosen to increase engagement. Some people, although they've probably seen the Patterson-Gimlin footage, may not be aware that that's what it's called, so a good descriptive photo somewhere would be a major help. The target audience are fully aware of what the PGF is, so in the end it is not a major flaw, but if I were to expand the site to be more beginner friendly it would be a must to add more photos.
 
 - **Images in modals** <br>
-  Again I was mindful of possible copyright issues and of consistency across the site, so did not insert images into the info modals, but images exist that would explain the majority of the answers in a visual way (e.g. the Jerry Crews casts, an image of the Skookum cast, a great-ape skull with a sagittal crest). Inserting one good image into each info modal would be informative and engaging.
+  Again I was mindful of possible copyright issues and of consistency across the site, so did not insert images into the info modals, but images exist that would explain the majority of the answers in a visual way (e.g. the Jerry Crews casts, an image of the Skookum cast, a great-ape skull with a sagittal crest, images of dermal ridges). Inserting one good image into each info modal would be informative and engaging.
 
 - **User feedback page** <br>
   Including a contact form would enable direct user feedback and submission of new questions, which would help with continuous site imporvement, growth and engagement.
 
 - **Extra media queries for edge cases** <br>
-  // All pages are responsive down to 320px wide (which very few modern phones are) and look good on any larger screen sizes (although the contact page starts to look slightly spare above approximately 1500px wide - though all functionality is retained). As a future feature I could set a media query for extra-wide screens that would mitigate the expanse of space on the screen on extra-wide monitors.
+  .. All pages are responsive down to 320px wide (which very few modern phones are) and look good on any larger screen sizes (although the contact page starts to look slightly spare above approximately 1500px wide - though all functionality is retained). As a future feature I could set a media query for extra-wide screens that would mitigate the expanse of space on the screen on extra-wide monitors.
   The pages also don't look ideal on very small mobile screens, this could be improved upon.
 
 # Testing
 
-Every page looks good on screens as narrow as 320px and as short as 700px.
+..Every page looks good on screens as narrow as 320px and as short as 700px.
 The site passes all tests from the following template (adapted for use on my own site)
 ![testing validation](assets/images/readme/testing.jpg)
 
 ## User Testing
 
-// I sent the site to be tested by a few photography friends. Their feedback is below, and what I did (if anything) with the feedback:
+// I sent the site to be tested onto a popular bigfoot internet forum. Their feedback is below, and what I did (if anything) with the feedback:
+
+    Personally the font is really hard to read on the background
+..
+    Quite a few slides had buttons with no answers attached to them (iPhone user)
+..
+
+There were several question suggestions and re-wording suggestions, which I took into account when tidying up the question list. Plus a couple of spelling errors that were picked up by testers. 
 
 # Validation Testing
 
 ## CSS Validation
 
-// No errors were returned when passing through the official HTML validator
+..No errors were returned when passing through the official HTML validator
 ![CSS validation](assets/images/readme/css-valid.jpg)
 <https://jigsaw.w3.org/css-validator/>
 
 ## HTML Validation
 
-// No errors were returned when passing through the official HTML validator
+..No errors were returned when passing through the official HTML validator
 ![HTML validation](assets/images/readme/html-index.jpg)
 ![HTML validation](assets/images/readme/html-gallery.jpg)
 ![HTML validation](assets/images/readme/html-contact.jpg)
@@ -185,11 +178,9 @@ Testing therefore focused on Chrome at various resolutions. I do not have a Brow
 | DevTools emulator: Galaxy Fold        | Chrome 112.0.5615.49   | MacOS 10.15.7      | 280 x 653px                                   |
 | DevTools emulator: Nest Hub           | Chrome 112.0.5615.49   | MacOS 10.15.7      | 1024 x 600px                                  |
 
-// On Safari on desktop the menu nav bar responds differently to Chrome. When hovered, each menu item shifts the position of its neighbours slightly (although there is no effect on functionality). The Gallery also renders as one long vertical column, even on wider screens.
+.. On Safari on desktop 
 
-![The Gallery page on Safari, showing single column gallery images and nav bar oddity](assets/images/readme/safari-gallery.jpg)
-
-// On Galaxy Fold there is a warning message saying the device is not suitable for viewing the page optimally, but the page does work fine, despite the contact form and social links being a little close.
+.. On Galaxy Fold there is a warning message saying the device is not suitable for viewing the page optimally, but the page does work fine, despite the contact form and social links being a little close.
 
 ![Message displayed on a Galaxy Fold phone](assets/images/readme/galaxy-fold.jpg)
 
@@ -197,7 +188,7 @@ Given the chance, and particularly as the Gallery on Safari responds differently
 
 ## Lighthouse testing
 
-// All testing was performed on an Incognito page in Chrome. Although Performance can vary, the largest issue was the Gallery performance on both mobile and desktop, due to the amount of large, fairly high quality images. To mitigate this I reduced the sizes of all the larger images and increased Performance scores by 16 and 24 respectively, but further trimming of size would also help these scores.
+.. All testing was performed on an Incognito page in Chrome. Although Performance can vary, the largest issue was the Gallery performance on both mobile and desktop, due to the amount of large, fairly high quality images. To mitigate this I reduced the sizes of all the larger images and increased Performance scores by 16 and 24 respectively, but further trimming of size would also help these scores.
 
 Homepage (desktop)<br>
 ![Homepage desktop lighthouse validation](assets/images/readme/lh-home-desk.jpg)<br>
@@ -226,11 +217,11 @@ Thank you page (mobile)<br>
 
 ## Wave Testing
 
-// I ran the site through [Wave](https://wave.webaim.org/) and the site returned
+.. I ran the site through [Wave](https://wave.webaim.org/) and the site returned
 
 # Defects
 
-// I did not track my defects as often as I should have at this early stage, but [the following defects were tracked and closed](https://github.com/caketaster/Portfolio-Project-1---still-life/issues)
+.. I did not track my defects as often as I should have at this early stage, but [the following defects were tracked and closed](https://github.com/caketaster/Portfolio-Project-1---still-life/issues)
 
 ## Outstanding Defects
 
@@ -258,13 +249,13 @@ The following steps were taken to deploy:
 
 # Credits
 
-// I used the Love-Maths walkthrough project as a
+.. I used the Love-Maths walkthrough project as a
 
 - [Nav bar](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/637be1a2e3b84b25aa33f3ab4d98603c/)
 - [Hero-image zoom](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/)
 - [contact form](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/)
 
-I used W3schools for several things too:
+.. I used W3schools for several things too:
 
 - [hover boxes on gallery](https://www.w3schools.com/cssref/sel_hover.php)
 - [larger textarea in the contact form](https://www.w3schools.com/tags/tag_textarea.asp)
@@ -273,3 +264,10 @@ I used W3schools for several things too:
 ## Media
 
 All photos were taken from Google Images, searching by license for Creative Commons images.
+
+
+
+
+
+* HTML Validation: 2 warnings - sections have no headings - change to divs?
+* Tutor attribution..?
