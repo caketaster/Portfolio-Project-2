@@ -64,20 +64,20 @@ const questionsList = [
     },
     {
         section: "General",
-        question: "According to the BFRO, roughly how many sasquatch sightings have been recorded in The USA in the last 150 years?",
+        question: "Approximately how many sasquatch reports are on the BRFO website?",
         A: "A: 2500",
         B: "B: 3600",
         C: "C: 5800",
         correct: "B: 3600",
-        info: "There have been at least 3,583 reported Bigfoot sightings in the contiguous United States, beginning in the mid-nineteenth century. Most sightings are thought to remain unreported."
+        info: "There have been at least 3,583 reported sightings in the contiguous United States, beginning in the mid-nineteenth century. Most sightings, however, are thought to remain unreported, and BFRO do not publish all reports they receive."
     },
     {
         section: "General",
         question: "Which cult 1972 movie helped to popularise the sasquatch phenomenon in America?",
-        A: "A: It Exists",
-        B: "B: The Legend of Boggy Creek",
+        A: "A: The Legend of Boggy Creek",
+        B: "B: It Exists",
         C: "C: Bigfoot Ate My Baby",
-        correct: "B: The Legend of Boggy Creek",
+        correct: "A: The Legend of Boggy Creek",
         info: "'...Boggy Creek' presented as a docu-drama, mixing interviews about supposedly true encounters with a dramatic re-enactment."
     },
     {
@@ -156,9 +156,9 @@ const questionsList = [
         section: "PGF",
         question: "Who claimed to be 'the man in the Patty costume'?",
         A: "A: Bob Titmus",
-        B: "B: Bob Heronimus",
+        B: "B: Bob Heironimus",
         C: "C: Harry Boronigus",
-        correct: "B: Bob Heronimus",
+        correct: "B: Bob Heironimus",
         info: "Bob Heronimus passed a lie-detector test claiming he was in a bigfoot suit for the Patterson-Gimlin film, though his story has several inconsistencies with other known facts. Incidentally, Roger Patterson also passed a lie-detector test stating that the creature he filmed was genuine."
     },
     {
@@ -182,11 +182,11 @@ const questionsList = [
     {
         section: "Science",
         question: "Which ancient hominid is sasquatch most commonly thought to be related to?",
-        A: "A: Gigantopithicus Blacki",
+        A: "A: Gigantopithicus blacki",
         B: "B: Meganthropus",
         C: "C: Lufengpithecus",
-        correct: "A: Gigantopithicus Blacki",
-        info: "Gigantopithicus Blacki was a giant ape living in Asia roughly 2 million to 350,000 years ago. Dr Grover Krantz hypothesised that sasquatch is an extant relative and that it reached continental America by crossing the Bering Straits when there was a land-bridge."
+        correct: "A: Gigantopithicus blacki",
+        info: "Gigantopithicus blacki was a giant ape living in Asia roughly 2 million to 350,000 years ago. Dr Grover Krantz hypothesised that sasquatch is an extant relative and that it reached continental America by crossing the Bering Straits when there was a land-bridge. Other scientists have put forward paranthropus and australopithecus as possible ancestors"
     },
     {
         section: "Science",
@@ -250,6 +250,24 @@ const questionsList = [
         C: "C: Herniation of the thigh",
         correct: "C: Herniation of the thigh",
         info: "Bill Munns first described the possible herniation on frame 353 and MK Davis performed further video analysis of that section of the footage."
+    },
+    {
+        section: "Science",
+        question: "Sasquatch eyes are often said to shine, or glow in the dark. Which physical attribute could account for this?",
+        A: "A: Lacrimal gland",
+        B: "B: Vitrous humor",
+        C: "C: Tapetum lucidum",
+        correct: "C: Tapetum lucidum",
+        info: "The tapetum lucidum is a layer in the choroid chiefly of nocturnal mammals that reflects light, causing the eyes to glow when light strikes them at night. Cats and black bears have this feature."
+    },
+    {
+        section: "Science",
+        question: "Which feature of the foot is visible in some casts that provides some of the strongest scientific evidence for sasquatch?",
+        A: "A: Pronounced talus",
+        B: "B: Dermal ridges",
+        C: "C: High arch",
+        correct: "B: Dermal ridges",
+        info: "In certain soils, footprints can show dermal ridges - an equivalent of fingerprints of the foot. These would be remarkably hard to fake, leading many to count them as strong evidence that these footprints are from a living creature."
     }
     ]
 
