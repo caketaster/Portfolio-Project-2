@@ -117,7 +117,7 @@ After each question is answered an info modal appears giving the correct answer 
 
 # Testing
 
-..Every page looks good on screens as narrow as 320px and as short as 700px.
+.. Every page looks good on screens as narrow as 320px and as short as 700px.
 The site passes all tests from the following template (adapted for use on my own site)
 ![testing validation](assets/images/readme/testing.jpg)
 
@@ -126,7 +126,9 @@ The site passes all tests from the following template (adapted for use on my own
 // I sent the site to be tested onto a popular bigfoot internet forum. Their feedback is below, and what I did (if anything) with the feedback:
 
     Personally the font is really hard to read on the background
-..
+
+I added a text-shadow to almost all text to increase contrast and readability.
+
     Quite a few slides had buttons with no answers attached to them (iPhone user)
 ..
 
@@ -144,10 +146,6 @@ There were several question suggestions and re-wording suggestions, which I took
 
 ..No errors were returned when passing through the official HTML validator
 ![HTML validation](assets/images/readme/html-index.jpg)
-![HTML validation](assets/images/readme/html-gallery.jpg)
-![HTML validation](assets/images/readme/html-contact.jpg)
-![HTML validation](assets/images/readme/html-thankyou.jpg)
-![HTML validation](assets/images/readme/html-404.jpg)
 <https://validator.w3.org/>
 
 ## Compatibility and Responsive Testing
@@ -268,6 +266,3 @@ All photos were taken from Google Images, searching by license for Creative Comm
 
 
 
-
-* HTML Validation: 2 warnings - sections have no headings - change to divs?
-* Tutor attribution..?

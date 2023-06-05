@@ -7,7 +7,7 @@ body {
     background-image: url("../images/BG.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 0 auto;
+    margin-top: 0;
     min-height: 100vh;
     /*max-height?*/
 }
