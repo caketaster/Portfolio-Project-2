@@ -219,9 +219,9 @@ Thank you page (mobile)<br>
 
 # Defects
 
-.. I did not track my defects as often as I should have at this early stage, but [the following defects were tracked and closed](https://github.com/caketaster/Portfolio-Project-1---still-life/issues)
-
 ## Outstanding Defects
+
+..
 
 # Deployment
 

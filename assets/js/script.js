@@ -1,5 +1,9 @@
-// Define all constants needed
+// The following JS was adapted and amalgamated from the following tutorials and checked and polished by an online tutor from Preply.com
+// https://www.sitepoint.com/simple-javascript-quiz/
+// https://github.com/KateEllen/Animal-Quiz/blob/main/assets/js/script.js
 
+
+// Define all constants needed
 const modal = document.querySelector(".intro-modal");
 const overlay = document.querySelector(".overlay");
 let questionText = document.getElementsByClassName("qtext");
@@ -49,6 +53,7 @@ function hideInfoModal() {
 }
 introModal() 
 
+// Event listeners (category choice, A,B,C answer buttons)
 generalButton.addEventListener('click', categoryClick);
 pgfButton.addEventListener('click', categoryClick);
 scienceButton.addEventListener('click', categoryClick);
@@ -103,7 +108,7 @@ function checkAnswer(event) {
   showInfoModal();
 }
 
-// Info modal
+// Display info modal
 function showInfoModal() {
   let questionData = questions[index];
   infoText.innerHTML = "The correct answer is " + questionData.correct + "<br><br>" + questionData.info;
@@ -156,13 +161,4 @@ function reloadGame() {
   incorrectCountText.textContent = incorrectCount;
   introModal()
 }
-
-
-
-
-// need functions for score total and final modal (Your total was (x), blurb, page reload)
-// can buttons flash colour-change on click..? Not essential 
-// insert socials
-// style buttons better (linear grad), drop-shadow on title etc (effects on hover?!)
-// continue media queries
 
