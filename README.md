@@ -4,7 +4,7 @@
 
 The Sasquatch Quiz is a multiple choice quiz site testing knowledge on the subject of sasquatch/bigfoot/the North American Wood Ape. Most of the questions are medium to high level difficulty - it's a quiz for people with a fairly deep interest in the subject matter rather than for beginners.
 
-..![Responsiveness on a variety of screen sizes](assets/images/readme/responsive.jpg)
+![Responsiveness on a variety of screen sizes](assets/images/readme/responsive.jpg)
 
 # Live site
 
@@ -21,7 +21,41 @@ Benjamin Norman <br>
 
 # Table of Contents
 
-..<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+- [THE SASQUATCH QUIZ](#the-sasquatch-quiz)
+  * [Outline](#outline)
+- [Live site](#live-site)
+- [Repository](#repository)
+- [Author](#author)
+- [Table of Contents](#table-of-contents)
+- [UX](#ux)
+- [Target Audience](#target-audience)
+- [Project Goals](#project-goals)
+- [User Stories](#user-stories)
+- [Design Choices](#design-choices)
+  * [Wireframes](#wireframes)
+  * [Colours](#colours)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+- [Site Structure](#site-structure)
+- [Features](#features)
+  * [Implemented Features](#implemented-features)
+    + [Homepage](#homepage)
+  * [Future Features](#future-features)
+- [Testing](#testing)
+  * [User Testing](#user-testing)
+- [Validation Testing](#validation-testing)
+  * [CSS Validation](#css-validation)
+  * [HTML Validation](#html-validation)
+  * [Compatibility and Responsive Testing](#compatibility-and-responsive-testing)
+  * [Lighthouse testing](#lighthouse-testing)
+  * [Wave Testing](#wave-testing)
+- [Defects](#defects)
+  * [Outstanding Defects](#outstanding-defects)
+- [Deployment](#deployment)
+  * [Production](#production)
+- [Credits](#credits)
+  * [Media](#media)
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # UX
 
@@ -40,19 +74,32 @@ As a site user I want to:
 
 - Test my knowledge of the sasquatch phenomenon
 - Learn some facts that I previously wasn't aware of
+- Have a smooth, intuitive user experience
+- Have zero issues with readability
 - Have fun!
 
 # Design Choices
 
+## Wireframes
+
+Basic wireframes were created for desktop and mobile in Balsamiq, although the final design did change slightly. <br>
+![Homepage wireframe mockup](assets/images/readme/wireframes1.jpg)<br>
+
+Showing the info modal upon answer-click<br>
+![Homepage wireframe mockup](assets/images/readme/wireframes2.jpg)<br>
+
+I also made wireframes for the page on mobile: <br>
+![Homepage wireframe mockup, mobile screen](assets/imags/readme/wireframes3.jpg)
+
 ## Colours
 
-I wanted a forest-feel to the backdrop and a basic but colourful layout to the quiz section. The main colours seen ire light browns, dark browns and greens, due to the background chosen. Semi-opaque divs let the colour come through whilst still leaving the text easily readable.
+I wanted a forest-feel to the backdrop and a basic but colourful layout to the quiz section. The main colours seen ire light browns, dark browns and greens due to the background chosen, with [mostly] white text. The modals are a brighter and stronger green. Semi-opaque divs for the question text let the colours come through whilst still leaving the text easily readable.
 
-..![The basic colour palette used for the site](assets/images/readme/.jpg)
+![The basic colour palette used for the site](assets/images/readme/coolors.jpg)
 
 ## Typography
 
-I used 3 fonts, Alegreya Sans SC for the main heading, Denk One for the sub-heading and question text and Carme for the answer text text. Without resorting to a stereotypical cartoonish font I did want something slightly 'fun' for the main heading and modal text, something that elicited a more pre-technological time. I used [Fontjoy](https://fontjoy.com/) to create the pairing. Ultimately I went on feeling as to what fonts would work best and fit the mood of the site. I stayed with white text for easy readability.
+I used 3 fonts, Alegreya Sans SC for the main heading, Denk One for the sub-heading and question text and Carme for the answer text text. Without resorting to a stereotypical cartoonish font I did want something slightly 'fun' for the main heading and modal text, something that elicited a more pre-technological time. I used [Fontjoy](https://fontjoy.com/) to create the pairing. Ultimately I went on feeling as to what fonts would work best and fit the mood of the site. I stayed with white text for easy readability but added a text shadow to make the text clearer on a mixed-colour background.
 
 ![My font pairing on Fontjoy.com](assets/images/readme/fonts.jpg)
 
@@ -60,24 +107,13 @@ I used 3 fonts, Alegreya Sans SC for the main heading, Denk One for the sub-head
 
 As this is a quiz site I kept the imagery basic. The background has a silhouetted sasquatch in a forest, all images are creative commons or free to use (from Google searches).
 
-.. The icons all came from [Font Awesome](https://fontawesome.com/). I wanted to keep a consistent dark theme for the icons.
+The icons all came from [Font Awesome](https://fontawesome.com/).
 
 The favicon icon came from [icons8](https://icons8.com) and aptly shows the subject of the site.
 
 # Site Structure
 
 This is a single page site with modals appearing to introduce the quiz and after each question to give the correct answer and more information, and a final score modal telling you how you've done.
-
-# Wireframes
-
-Basic wireframes were created for desktop and mobile in Balsamiq, although the final design and function did change. <br>
-![Homepage wireframe mockup](assets/images/readme/wireframes1.jpg)<br>
-
-Showing the info modal upon answer-click<br>
-![Homepage wireframe mockup](assets/images/readme/wireframes1.jpg)<br>
-
-I also made wireframes for the page on mobile: <br>
-![Homepage wireframe mockup, mobile screen](assets/imags/readme/wireframes3.jpg)
 
 # Features
 
@@ -88,6 +124,14 @@ I also made wireframes for the page on mobile: <br>
 An intro modal displays on pageload giving a brief introduction and the 3 quiz sections that you can choose from (..screenshot pls). An overlay blurs the screen background (a slight nod to the blurry photos usually associated with sasquatch).
 After each question is answered an info modal appears giving the correct answer and more information about the answer (..screenshot pls). The score/incorrect score tally increments. On complteing your quiz section a final modal appears giving your score and a message. There are separate messages for any score over 4/10 and a single message for scores 3 and under. The page then resets for another turn.
 
+![intro modal](assets/images/readme/intro-modal.jpg)
+
+![homepage](assets/images/readme/homepage.jpg)
+
+![info modal](assets/images/readme/info-modal.jpg)
+
+![final modal](assets/images/readme/final-modal.jpg)
+
 ## Future Features
 
 - **Hold name and score for each section** <br>
@@ -97,40 +141,44 @@ After each question is answered an info modal appears giving the correct answer 
   Scores could be held in an online database so players could compare how they score against other people who've played elsewhere.
 
 - **New questions added** <br>
-  Each section is currently a little short, and there may not be much re-play value. In order to attract more repeat plays more questions could be added, or even more sections. I'd especially like to add a Beginners' question section, with simpler questions based more on sasquatch in popular culture, as more of an on-ramp.
+  Each section is currently a little short, and there may not be much re-play value. In order to attract more repeat plays more questions could be added, or even more sections. I'd especially like to add a Beginners question section, with simpler questions based more on sasquatch in popular culture, as more of an on-ramp. I was also considering a Hoaxes section, but couldn't gather enough questions to make it viable.
 
 - **Answers displayed within the buttons** <br>
   I made a design choice to leave the buttons as A, B and C and have the options display above the buttons. This is helpful for media queries, as the buttons can shrink with few issues as they don't contain any text apart from a single letter each. The most attractive and intuitive way is probably to embed the answers in the buttons, and in future I'd definitely consider changing the format to allow this (perhaps by stacking the buttons vertically, allowing a reasonable amount of text in each).
 
-- **Better pictures** <br>
+- **More and Better pictures** <br>
   Aware of copyright issues, I was conservative in my choice of imagery. I believe better, more descriptive images could have been chosen to increase engagement. Some people, although they've probably seen the Patterson-Gimlin footage, may not be aware that that's what it's called, so a good descriptive photo somewhere would be a major help. The target audience are fully aware of what the PGF is, so in the end it is not a major flaw, but if I were to expand the site to be more beginner friendly it would be a must to add more photos.
 
 - **Images in modals** <br>
   Again I was mindful of possible copyright issues and of consistency across the site, so did not insert images into the info modals, but images exist that would explain the majority of the answers in a visual way (e.g. the Jerry Crews casts, an image of the Skookum cast, a great-ape skull with a sagittal crest, images of dermal ridges). Inserting one good image into each info modal would be informative and engaging.
 
 - **User feedback page** <br>
-  Including a contact form would enable direct user feedback and submission of new questions, which would help with continuous site imporvement, growth and engagement.
+  Including a contact form would enable direct user feedback and submission of new questions, which would help with continuous site improvement, growth and engagement.
+
+- **Better commit messages** <br>
+  In terms of the building of the site, my commit messages were often too long, sometimes not descriptive enough, and I may have strayed from present tense at times. I have room for improvement here. 
 
 - **Extra media queries for edge cases** <br>
-  .. All pages are responsive down to 320px wide (which very few modern phones are) and look good on any larger screen sizes (although the contact page starts to look slightly spare above approximately 1500px wide - though all functionality is retained). As a future feature I could set a media query for extra-wide screens that would mitigate the expanse of space on the screen on extra-wide monitors.
-  The pages also don't look ideal on very small mobile screens, this could be improved upon.
+  The site is responsive down to 320px wide (which very few modern phones are) and looks relatively good on any larger screen sizes. One of the questions (screenshot below) has too many characters in the answers, and so looks rather squashed on the smallest screen sizes. The simplest fix would be to change this to another question! 
+  ![Squashed answers](assets/images/readme/boggy-q.jpg)
 
 # Testing
 
-.. Every page looks good on screens as narrow as 320px and as short as 700px.
+Every page looks good on screens as narrow as 320px and as short as 650px (the size of a Galaxy Fold).
 The site passes all tests from the following template (adapted for use on my own site)
 ![testing validation](assets/images/readme/testing.jpg)
 
 ## User Testing
 
-// I sent the site to be tested onto a popular bigfoot internet forum. Their feedback is below, and what I did (if anything) with the feedback:
+I sent the site to be tested onto a popular bigfoot internet forum. Their feedback is below, and what I did with the feedback:
 
     Personally the font is really hard to read on the background
 
 I added a text-shadow to almost all text to increase contrast and readability.
 
-    Quite a few slides had buttons with no answers attached to them (iPhone user)
-..
+    Quite a few slides had buttons with no answers attached to them [iPhone SE user]
+
+Media queries were improved to fix answer text sliding into the answer buttons.
 
 There were several question suggestions and re-wording suggestions, which I took into account when tidying up the question list. Plus a couple of spelling errors that were picked up by testers. 
 
@@ -138,13 +186,13 @@ There were several question suggestions and re-wording suggestions, which I took
 
 ## CSS Validation
 
-..No errors were returned when passing through the official HTML validator
+No errors were returned when passing through the official HTML validator
 ![CSS validation](assets/images/readme/css-valid.jpg)
 <https://jigsaw.w3.org/css-validator/>
 
 ## HTML Validation
 
-..No errors were returned when passing through the official HTML validator
+No errors were returned when passing through the official HTML validator
 ![HTML validation](assets/images/readme/html-index.jpg)
 <https://validator.w3.org/>
 
@@ -176,13 +224,7 @@ Testing therefore focused on Chrome at various resolutions. I do not have a Brow
 | DevTools emulator: Galaxy Fold        | Chrome 112.0.5615.49   | MacOS 10.15.7      | 280 x 653px                                   |
 | DevTools emulator: Nest Hub           | Chrome 112.0.5615.49   | MacOS 10.15.7      | 1024 x 600px                                  |
 
-.. On Safari on desktop 
-
-.. On Galaxy Fold there is a warning message saying the device is not suitable for viewing the page optimally, but the page does work fine, despite the contact form and social links being a little close.
-
-![Message displayed on a Galaxy Fold phone](assets/images/readme/galaxy-fold.jpg)
-
-Given the chance, and particularly as the Gallery on Safari responds differently to on Chrome, I'd want to test in other browsers (Opera, Samsung, Edge)
+Given the chance I'd want to test in other browsers (Opera, Samsung, Edge)
 
 ## Lighthouse testing
 
@@ -193,29 +235,13 @@ Homepage (desktop)<br>
 Homepage (mobile)<br>
 ![Homepage mobile lighthouse validation](assets/images/readme/lh-home-mob.jpg)<br>
 
-Gallery (desktop)<br>
-![Gallery desktop lighthouse validation](assets/images/readme/lh-gallery-desk2.jpg)<br>
-Gallery (mobile)<br>
-![Gallery mobile lighthouse validation](assets/images/readme/lh-gallery-mob2.jpg)<br>
-
-Contact page (desktop)<br>
-![Contact desktop lighthouse validation](assets/images/readme/lh-contact-desk.jpg)<br>
-Contact page (mobile)<br>
-![Contact mobile lighthouse validation](assets/images/readme/lh-contact-mob.jpg)<br>
-
-Thank you page (desktop)<br>
-![Thank you desktop lighthouse validation](assets/images/readme/lh-thank-desk.jpg)<br>
-Thank you page (mobile)<br>
-![Thank you mobile lighthouse validation](assets/images/readme/lh-thank-mob.jpg)<br>
-
-404 page (desktop)<br>
-![404 desktop lighthouse validation](assets/images/readme/lh-404-desk.jpg)<br>
-404 page (mobile)<br>
-![404 mobile lighthouse validation](assets/images/readme/lh-404-mob.jpg)<br>
-
 ## Wave Testing
 
-.. I ran the site through [Wave](https://wave.webaim.org/) and the site returned
+I ran the site through [Wave](https://wave.webaim.org/) and the site returned the following summary, plus details:
+
+![Wave summary](assets/images/readme/wave-summary.jpg)<br>
+![Wave details](assets/images/readme/wave-details.jpg)<br>
+![Wave contrast](assets/images/readme/wave-constrast.jpg)<br>
 
 # Defects
 
@@ -247,22 +273,18 @@ The following steps were taken to deploy:
 
 # Credits
 
-.. I used the Love-Maths walkthrough project as a
+The JS quiz functions were adapted and amalgamated from the following web tutorials and Portfolio 2 submissions, and checked and polished in collaboration with an online tutor from Preply.com
 
-- [Nav bar](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/637be1a2e3b84b25aa33f3ab4d98603c/)
-- [Hero-image zoom](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/)
-- [contact form](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/)
+- [How to Make a Simple JavaScript Quiz](https://www.sitepoint.com/simple-javascript-quiz/)
+- [PP2 submission - Animal Quiz](https://github.com/KateEllen/Animal-Quiz/blob/main/assets/js/script.js)
+- [Code Geek - Create a Quiz App using HTML, CSS & JavaScript](https://www.youtube.com/watch?v=Opje9VBrNfg&t=1791s&ab_channel=CodeGeek)
+- [Easy Tutorials - How To Make Quiz App Using JavaScript](https://www.youtube.com/watch?v=PBcqGxrr9g8&ab_channel=EasyTutorials)
 
-.. I used W3schools for several things too:
+CSS sites that I used:
 
-- [hover boxes on gallery](https://www.w3schools.com/cssref/sel_hover.php)
-- [larger textarea in the contact form](https://www.w3schools.com/tags/tag_textarea.asp)
-- [placholder styling](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_placeholder)
+- [Responsive scaling text](https://sjorswijsman.medium.com/3-easy-css-tricks-for-responsive-websites-i-use-in-every-project-68ec334a1522)
+- [How to create a fixed footer](https://www.w3schools.com/howto/howto_css_fixed_footer.asp)
 
 ## Media
 
 All photos were taken from Google Images, searching by license for Creative Commons images.
-
-
-
-
