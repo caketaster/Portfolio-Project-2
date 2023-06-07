@@ -89,7 +89,7 @@ Showing the info modal upon answer-click<br>
 ![Homepage wireframe mockup](assets/images/readme/wireframes2.jpg)<br>
 
 I also made wireframes for the page on mobile: <br>
-![Homepage wireframe mockup, mobile screen](assets/imags/readme/wireframes3.jpg)
+![Homepage wireframe mockup, mobile screen](assets/images/readme/wireframes3.jpg)
 
 ## Colours
 
@@ -121,16 +121,16 @@ This is a single page site with modals appearing to introduce the quiz and after
 
 ### Homepage
 
-An intro modal displays on pageload giving a brief introduction and the 3 quiz sections that you can choose from (..screenshot pls). An overlay blurs the screen background (a slight nod to the blurry photos usually associated with sasquatch).
-After each question is answered an info modal appears giving the correct answer and more information about the answer (..screenshot pls). The score/incorrect score tally increments. On complteing your quiz section a final modal appears giving your score and a message. There are separate messages for any score over 4/10 and a single message for scores 3 and under. The page then resets for another turn.
-
-![intro modal](assets/images/readme/intro-modal.jpg)
-
-![homepage](assets/images/readme/homepage.jpg)
-
-![info modal](assets/images/readme/info-modal.jpg)
-
-![final modal](assets/images/readme/final-modal.jpg)
+An intro modal displays on pageload giving a brief introduction and the 3 quiz sections that you can choose from. <br>
+![intro modal](assets/images/readme/intro-modal.jpg)<br><br>
+An overlay blurs the screen background (a subtle nod to the blurry photos usually associated with sasquatch).<br>
+![homepage](assets/images/readme/homepage.jpg)<br><br>
+After each question is answered an info modal appears giving the correct answer and more information about the answer. <br>
+![info modal](assets/images/readme/info-modal.jpg)<br><br>
+The score/incorrect score tally increments. On completing your quiz section a final modal appears giving your score and a message. There are separate messages for any score over 4/10 and a single message for scores 3 and under. On clicking Try Again the page then resets for another turn.<br>
+![final modal](assets/images/readme/final-modal.jpg)<br><br>
+Socials links glow on hover.<br>
+![socials glow on hover](assets/images/readme/social-glow.jpg)<br><br>
 
 ## Future Features
 
@@ -159,7 +159,8 @@ After each question is answered an info modal appears giving the correct answer 
   In terms of the building of the site, my commit messages were often too long, sometimes not descriptive enough, and I may have strayed from present tense at times. I have room for improvement here. 
 
 - **Extra media queries for edge cases** <br>
-  The site is responsive down to 320px wide (which very few modern phones are) and looks relatively good on any larger screen sizes. One of the questions (screenshot below) has too many characters in the answers, and so looks rather squashed on the smallest screen sizes. The simplest fix would be to change this to another question! 
+  The site is responsive down to 320px wide (i.e. a Galaxy Fold, the smallest phone on DevTools) and looks relatively good on any larger screen sizes. One of the questions (screenshot below) has too many characters in the answers, and so looks rather squashed on the smallest screen sizes. The simplest fix would be to change this to another question! 
+
   ![Squashed answers](assets/images/readme/boggy-q.jpg)
 
 # Testing
@@ -178,7 +179,7 @@ I added a text-shadow to almost all text to increase contrast and readability.
 
     Quite a few slides had buttons with no answers attached to them [iPhone SE user]
 
-Media queries were improved to fix answer text sliding into the answer buttons.
+Media queries were improved to fix answer text sliding into the answer buttons, and I inserted code to scale the text along with the screen size.
 
 There were several question suggestions and re-wording suggestions, which I took into account when tidying up the question list. Plus a couple of spelling errors that were picked up by testers. 
 
@@ -224,11 +225,11 @@ Testing therefore focused on Chrome at various resolutions. I do not have a Brow
 | DevTools emulator: Galaxy Fold        | Chrome 112.0.5615.49   | MacOS 10.15.7      | 280 x 653px                                   |
 | DevTools emulator: Nest Hub           | Chrome 112.0.5615.49   | MacOS 10.15.7      | 1024 x 600px                                  |
 
-Given the chance I'd want to test in other browsers (Opera, Samsung, Edge)
+Given the chance I'd want to test in other browsers (Opera, Samsung, Edge).
 
 ## Lighthouse testing
 
-.. All testing was performed on an Incognito page in Chrome. Although Performance can vary, the largest issue was the Gallery performance on both mobile and desktop, due to the amount of large, fairly high quality images. To mitigate this I reduced the sizes of all the larger images and increased Performance scores by 16 and 24 respectively, but further trimming of size would also help these scores.
+All testing was performed on an Incognito page in Chrome. 
 
 Homepage (desktop)<br>
 ![Homepage desktop lighthouse validation](assets/images/readme/lh-home-desk.jpg)<br>
@@ -242,6 +243,7 @@ I ran the site through [Wave](https://wave.webaim.org/) and the site returned th
 ![Wave summary](assets/images/readme/wave-summary.jpg)<br>
 ![Wave details](assets/images/readme/wave-details.jpg)<br>
 ![Wave contrast](assets/images/readme/wave-constrast.jpg)<br>
+
 
 # Defects
 
@@ -279,6 +281,7 @@ The JS quiz functions were adapted and amalgamated from the following web tutori
 - [PP2 submission - Animal Quiz](https://github.com/KateEllen/Animal-Quiz/blob/main/assets/js/script.js)
 - [Code Geek - Create a Quiz App using HTML, CSS & JavaScript](https://www.youtube.com/watch?v=Opje9VBrNfg&t=1791s&ab_channel=CodeGeek)
 - [Easy Tutorials - How To Make Quiz App Using JavaScript](https://www.youtube.com/watch?v=PBcqGxrr9g8&ab_channel=EasyTutorials)
+- [How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial](https://www.youtube.com/watch?v=f4fB9Xg2JEY&ab_channel=BrianDesign)
 
 CSS sites that I used:
 

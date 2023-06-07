@@ -7,7 +7,7 @@ body {
     text-align: center;
     font-family: 'Carme', sans-serif;
     color: white;
-    background: linear-gradient(14deg, rgba(2, 0, 36, 0.793) 0%, rgba(3, 13, 21, 0.656) 6%, rgba(11, 43, 20, 0.39) 100%), url(../images/BG.jpeg);
+    background: linear-gradient(14deg, rgba(2, 0, 36, 0.793) 0%, rgba(3, 13, 21, 0.656) 6%, rgba(11, 43, 20, 0.39) 100%), url(../images/bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0;
@@ -35,7 +35,6 @@ h2 {
     text-shadow: 2px 2px black;
 }
 
-/* Modals */
 .intro-modal,
 .info-modal {
     font-family: 'Denk One', sans-serif;
@@ -51,24 +50,11 @@ h2 {
     flex-direction: column;
     justify-content: center;
     top: 20%;
-    background-image: url("../images/forest.jpeg");
+    background-image: url("../images/forest.webp");
     border: 1px solid rgb(255, 255, 255);
     text-shadow: 1px 1px black;
 }
 
-#modal-close,
-#try-again {
-    background: rgb(53, 62, 118);
-    border-radius: 15%;
-    color: white;
-    cursor: pointer;
-    width: 100px;
-    justify-content: center;
-    cursor: pointer;
-    font-family: 'Denk One', sans-serif;
-}
-
-/* Buttons */
 .intro-btns {
     justify-content: space-between;
 }
@@ -105,9 +91,22 @@ h2 {
     justify-content: center;
     cursor: pointer;
     font-family: 'Denk One', sans-serif;
+
 }
 
-/* Blur overlay behind modals */
+#modal-close,
+#try-again {
+    background: rgb(53, 62, 118);
+    border-radius: 15%;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Denk One', sans-serif;
+}
+
+/* blur overlay behind modals */
 .overlay {
     position: fixed;
     top: 0;
@@ -249,7 +248,7 @@ h2 {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(32, 32, 34, 0.277);
+    background-color: rgba(0, 0, 0, 0.339);
     color: white;
     text-align: center;
 }
@@ -270,7 +269,7 @@ h2 {
     color: rgba(255, 255, 255, 0.317);
     font-size: 150%;
     padding: 10px 10px;
-    margin: 0 20px 20px 0;
+    margin: 0 0 15px 0;
     padding-inline-start: 0px;
 }
 
@@ -279,7 +278,11 @@ ul.networks {
     padding-inline-start: 0px;
 }
 
+.fa-brands:hover {
+    text-shadow: 0px 0px 2px rgb(255, 255, 255);
+}
 
+/* Max width media queries */
 @media screen and (max-width: 768px) {
 
     .intro-modal,
@@ -292,6 +295,7 @@ ul.networks {
         height: 40%;
         margin: 20px auto;
         bottom: 5%;
+        /* max-height: 20vh; */
     }
 
     .answer-text {
@@ -311,6 +315,7 @@ ul.networks {
     }
 }
 
+/* Max height media queries */
 @media screen and (max-height: 850px) {
     #qtext {
         font-size: 140%;
