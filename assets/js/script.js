@@ -40,7 +40,8 @@ const scoreText = document.querySelector("#score-text");
 const tryAgainButton = document.querySelector("#try-again");
 
 
-// Intro modal, info modal (display/hide)
+// Intro modal, info modal, background blur (display/hide)
+// (Adapted from https://www.freecodecamp.org/news/how-to-build-a-modal-with-javascript/)
 function introModal() {
     modal.classList.remove("hidden");
     overlay.classList.remove("hidden");

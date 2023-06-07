@@ -269,16 +269,4 @@ const questionsList = [
         correct: "B: Dermal ridges",
         info: "In certain soils, footprints can show dermal ridges - an equivalent of fingerprints of the foot. These would be remarkably hard to fake, leading many to count them as strong evidence that these footprints are from a living creature."
     }
-    ]
-
-
-
-    // {
-    //     section: "General",
-    //     question: "Which family adopted Bigfoot in the 1987 movie 'Harry and the...:' ",
-    //     A: "A: Freemans",
-    //     B: "B: Dahindens",
-    //     C: "C: Hendersons",
-    //     correct: "C: Hendersons",
-    //     info: "The movie also spawned a TV spin-off of the same name."
-    // },
+];

@@ -1,4 +1,5 @@
 /* Whole page styles */
+/* The following line assists in text-scaling and was taken from https: //sjorswijsman.medium.com/3-easy-css-tricks-for-responsive-websites-i-use-in-every-project-68ec334a1522 */
 html {
     font-size: calc(60% + 0.8vmin);
 }
@@ -7,10 +8,9 @@ body {
     text-align: center;
     font-family: 'Carme', sans-serif;
     color: white;
-    /* background: linear-gradient(14deg, rgba(2, 0, 36, 0.793) 0%, rgba(3, 13, 21, 0.656) 6%, rgba(11, 43, 20, 0.39) 100%), url(../images/bg.webp); */
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 0;
+    margin: 0 auto;
     min-height: 100vh;
 }
 
@@ -35,6 +35,7 @@ h2 {
     text-shadow: 2px 2px black;
 }
 
+/* Partially adapted from https://www.freecodecamp.org/news/how-to-build-a-modal-with-javascript/ */
 .intro-modal,
 .info-modal {
     font-family: 'Denk One', sans-serif;
@@ -106,7 +107,8 @@ h2 {
     font-family: 'Denk One', sans-serif;
 }
 
-/* blur overlay behind modals */
+/* blur overlay behind modals 
+(with help from https: //www.freecodecamp.org/news/how-to-build-a-modal-with-javascript/ */
 .overlay {
     position: fixed;
     top: 0;
@@ -120,6 +122,7 @@ h2 {
     z-index: 1;
 }
 
+/* To add/remove from modals */
 .hidden {
     display: none;
 }
@@ -132,7 +135,6 @@ h2 {
 
 
 /* Quiz section layout */
-
 .quiz-section {
     width: 80vw;
     margin: 0 auto;
@@ -226,10 +228,12 @@ h2 {
     width: 90%;
     padding: 20px;
     text-shadow: 1px 1px black;
+    font-size: 120%;
 }
 
 #gameScore {
     color: rgb(150, 194, 255);
+    font-size: 120%;
 }
 
 .answer:hover,
@@ -242,7 +246,7 @@ h2 {
 }
 
 /* Socials */
-
+/* Footer styling was adapted from https: //www.w3schools.com/howto/howto_css_fixed_footer.asp */
 .footer {
     position: fixed;
     left: 0;
@@ -295,7 +299,6 @@ ul.networks {
         height: 40%;
         margin: 20px auto;
         bottom: 5%;
-        /* max-height: 20vh; */
     }
 
     .answer-text {
@@ -303,9 +306,7 @@ ul.networks {
         padding-top: 0;
         font-size: 90%;
     }
-}
 
-@media screen and (max-width: 768px) {
     .questions {
         padding: 1em;
     }
@@ -336,6 +337,9 @@ ul.networks {
         margin: 0px auto;
     }
 
+    #info-text {
+        padding: 10px;
+    }
 }
 
 @media screen and (max-height: 550px) {
