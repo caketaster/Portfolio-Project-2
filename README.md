@@ -156,7 +156,7 @@ Socials links glow on hover.<br>
 - **Better commit messages** <br>
   In terms of the building of the site, my commit messages were often too long, sometimes not descriptive enough, and I may have strayed from present tense at times. I have room for improvement here.
 
-- **Increase pageload times** <br>
+- **Decrease pageload times** <br>
   My Lighthouse performance score on mobile was not as high as I'd wish. Although I did take steps to improve it there were other suggestions on the site for improvements that were above my skill level to implement.
 
 - **Extra media queries for edge cases** <br>
