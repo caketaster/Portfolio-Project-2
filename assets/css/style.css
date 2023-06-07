@@ -7,7 +7,7 @@ body {
     text-align: center;
     font-family: 'Carme', sans-serif;
     color: white;
-    background: linear-gradient(14deg, rgba(2, 0, 36, 0.793) 0%, rgba(3, 13, 21, 0.656) 6%, rgba(11, 43, 20, 0.39) 100%), url(../images/bg.webp);
+    /* background: linear-gradient(14deg, rgba(2, 0, 36, 0.793) 0%, rgba(3, 13, 21, 0.656) 6%, rgba(11, 43, 20, 0.39) 100%), url(../images/bg.webp); */
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0;

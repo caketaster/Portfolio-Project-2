@@ -4,7 +4,7 @@
 
 The Sasquatch Quiz is a multiple choice quiz site testing knowledge on the subject of sasquatch/bigfoot/the North American Wood Ape. Most of the questions are medium to high level difficulty - it's a quiz for people with a fairly deep interest in the subject matter rather than for beginners.
 
-![Responsiveness on a variety of screen sizes](assets/images/readme/responsive.jpg)
+![Responsiveness on a variety of screen sizes](readme/responsive.jpg)
 
 # Live site
 
@@ -54,6 +54,7 @@ Benjamin Norman <br>
 - [Deployment](#deployment)
   * [Production](#production)
 - [Credits](#credits)
+  * [Technologies used](#technologies-used)
   * [Media](#media)
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -83,25 +84,25 @@ As a site user I want to:
 ## Wireframes
 
 Basic wireframes were created for desktop and mobile in Balsamiq, although the final design did change slightly. <br>
-![Homepage wireframe mockup](assets/images/readme/wireframes1.jpg)<br>
+![Homepage wireframe mockup](readme/wireframes1.jpg)<br>
 
 Showing the info modal upon answer-click<br>
-![Homepage wireframe mockup](assets/images/readme/wireframes2.jpg)<br>
+![Homepage wireframe mockup](readme/wireframes2.jpg)<br>
 
 I also made wireframes for the page on mobile: <br>
-![Homepage wireframe mockup, mobile screen](assets/images/readme/wireframes3.jpg)
+![Homepage wireframe mockup, mobile screen](readme/wireframes3.jpg)
 
 ## Colours
 
 I wanted a forest-feel to the backdrop and a basic but colourful layout to the quiz section. The main colours seen ire light browns, dark browns and greens due to the background chosen, with [mostly] white text. The modals are a brighter and stronger green. Semi-opaque divs for the question text let the colours come through whilst still leaving the text easily readable.
 
-![The basic colour palette used for the site](assets/images/readme/coolors.jpg)
+![The basic colour palette used for the site](readme/coolors.jpg)
 
 ## Typography
 
 I used 3 fonts, Alegreya Sans SC for the main heading, Denk One for the sub-heading and question text and Carme for the answer text text. Without resorting to a stereotypical cartoonish font I did want something slightly 'fun' for the main heading and modal text, something that elicited a more pre-technological time. I used [Fontjoy](https://fontjoy.com/) to create the pairing. Ultimately I went on feeling as to what fonts would work best and fit the mood of the site. I stayed with white text for easy readability but added a text shadow to make the text clearer on a mixed-colour background.
 
-![My font pairing on Fontjoy.com](assets/images/readme/fonts.jpg)
+![My font pairing on Fontjoy.com](readme/fonts.jpg)
 
 ## Imagery
 
@@ -122,15 +123,15 @@ This is a single page site with modals appearing to introduce the quiz and after
 ### Homepage
 
 An intro modal displays on pageload giving a brief introduction and the 3 quiz sections that you can choose from. <br>
-![intro modal](assets/images/readme/intro-modal.jpg)<br><br>
+![intro modal](readme/intro-modal.jpg)<br><br>
 An overlay blurs the screen background (a subtle nod to the blurry photos usually associated with sasquatch).<br>
-![homepage](assets/images/readme/homepage.jpg)<br><br>
+![homepage](readme/homepage.jpg)<br><br>
 After each question is answered an info modal appears giving the correct answer and more information about the answer. <br>
-![info modal](assets/images/readme/info-modal.jpg)<br><br>
+![info modal](readme/info-modal.jpg)<br><br>
 The score/incorrect score tally increments. On completing your quiz section a final modal appears giving your score and a message. There are separate messages for any score over 4/10 and a single message for scores 3 and under. On clicking Try Again the page then resets for another turn.<br>
-![final modal](assets/images/readme/final-modal.jpg)<br><br>
+![final modal](readme/final-modal.jpg)<br><br>
 Socials links glow on hover.<br>
-![socials glow on hover](assets/images/readme/social-glow.jpg)<br><br>
+![socials glow on hover](readme/social-glow.jpg)<br><br>
 
 ## Future Features
 
@@ -161,13 +162,13 @@ Socials links glow on hover.<br>
 - **Extra media queries for edge cases** <br>
   The site is responsive down to 320px wide (i.e. a Galaxy Fold, the smallest phone on DevTools) and looks relatively good on any larger screen sizes. One of the questions (screenshot below) has too many characters in the answers, and so looks rather squashed on the smallest screen sizes. The simplest fix would be to change this to another question! 
 
-  ![Squashed answers](assets/images/readme/boggy-q.jpg)
+  ![Squashed answers](readme/boggy-q.jpg)
 
 # Testing
 
 Every page looks good on screens as narrow as 320px and as short as 650px (the size of a Galaxy Fold).
 The site passes all tests from the following template (adapted for use on my own site)
-![testing validation](assets/images/readme/testing.jpg)
+![testing validation](readme/testing.jpg)
 
 ## User Testing
 
@@ -188,24 +189,24 @@ There were several question suggestions and re-wording suggestions, which I took
 ## CSS Validation
 
 No errors were returned when passing through the official HTML validator
-![CSS validation](assets/images/readme/css-valid.jpg)
+![CSS validation](readme/css-valid.jpg)
 <https://jigsaw.w3.org/css-validator/>
 
 ## HTML Validation
 
 No errors were returned when passing through the official HTML validator
-![HTML validation](assets/images/readme/html-index.jpg)
+![HTML validation](readme/html-index.jpg)
 <https://validator.w3.org/>
 
 ## Compatibility and Responsive Testing
 
 I used [gsstatcounter](https://gs.statcounter.com/) to check the most popular browsers on desktop, tablet and mobile, and the most common screen resolutions seen worldwide:
 
-![browser market share desktop](assets/images/readme/browser-desk.jpg)<br>
-![browser market share tablet](assets/images/readme/browser-tab.jpg)<br>
-![browser market share mobile](assets/images/readme/browser-mob.jpg)<br>
+![browser market share desktop](readme/browser-desk.jpg)<br>
+![browser market share tablet](readme/browser-tab.jpg)<br>
+![browser market share mobile](readme/browser-mob.jpg)<br>
 
-![screen resolution worldwide](assets/images/readme/screen-resolution.jpg)<br>
+![screen resolution worldwide](readme/screen-resolution.jpg)<br>
 
 Testing therefore focused on Chrome at various resolutions. I do not have a Browserstack account so ran through the DevTools emulators and the other browsers I had installed (Safari, Firefox)
 
@@ -232,24 +233,17 @@ Given the chance I'd want to test in other browsers (Opera, Samsung, Edge).
 All testing was performed on an Incognito page in Chrome. 
 
 Homepage (desktop)<br>
-![Homepage desktop lighthouse validation](assets/images/readme/lh-home-desk.jpg)<br>
+![Homepage desktop lighthouse validation](readme/lh-home-desk.jpg)<br>
 Homepage (mobile)<br>
-![Homepage mobile lighthouse validation](assets/images/readme/lh-home-mob.jpg)<br>
+![Homepage mobile lighthouse validation](readme/lh-home-mob.jpg)<br>
 
 ## Wave Testing
 
 I ran the site through [Wave](https://wave.webaim.org/) and the site returned the following summary, plus details:
 
-![Wave summary](assets/images/readme/wave-summary.jpg)<br>
-![Wave details](assets/images/readme/wave-details.jpg)<br>
-![Wave contrast](assets/images/readme/wave-constrast.jpg)<br>
-
-
-# Defects
-
-## Outstanding Defects
-
-..
+![Wave summary](readme/wave-summary.jpg)<br>
+![Wave details](readme/wave-details.jpg)<br>
+![Wave contrast](readme/wave-constrast.jpg)<br>
 
 # Deployment
 
@@ -259,19 +253,19 @@ This website was deployed to GitHub Pages.
 The following steps were taken to deploy:
 
 1. Click the Settings cog on GitHub <br>
-   ![Screenshot 2023-03-25 at 10 53 42](assets/images/readme/deploy1.jpg)
+   ![Screenshot 2023-03-25 at 10 53 42](readme/deploy1.jpg)
 
 2. In the left-hand nav, click on the Pages tab <br>
-   ![Screenshot 2023-03-25 at 10 57 03](assets/images/readme/deploy2.jpg)
+   ![Screenshot 2023-03-25 at 10 57 03](readme/deploy2.jpg)
 
 3. In the Branches section, select Main <br>
-   ![Screenshot 2023-03-25 at 11 01 19](assets/images/readme/deploy3.jpg)
+   ![Screenshot 2023-03-25 at 11 01 19](readme/deploy3.jpg)
 
 4. Click Save <br>
-   ![Screenshot 2023-03-25 at 11 01 48](assets/images/readme/deploy4.jpg)
+   ![Screenshot 2023-03-25 at 11 01 48](readme/deploy4.jpg)
 
 5. Site is now deployed <br>
-   ![Screenshot 2023-03-25 at 11 05 34](assets/images/readme/deploy5.jpg)
+   ![Screenshot 2023-03-25 at 11 05 34](readme/deploy5.jpg)
 
 # Credits
 
@@ -287,6 +281,10 @@ CSS sites that I used:
 
 - [Responsive scaling text](https://sjorswijsman.medium.com/3-easy-css-tricks-for-responsive-websites-i-use-in-every-project-68ec334a1522)
 - [How to create a fixed footer](https://www.w3schools.com/howto/howto_css_fixed_footer.asp)
+
+## Technologies used
+
+The site was built using HTML, CSS and vanilla JavaScript
 
 ## Media
 
