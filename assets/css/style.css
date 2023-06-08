@@ -10,7 +10,8 @@ body {
     font-family: 'Carme', sans-serif;
     color: white;
     background-repeat: no-repeat;
-    background-size: center / cover;
+    background-size: cover;
+    background-position: center;
     margin: 0 auto;
     min-height: 100vh;
     background: linear-gradient(14deg, rgba(5, 2, 51, 0.793) 0%, rgba(4, 16, 26, 0.656) 6%, rgba(12, 47, 22, 0.39) 100%), url(../images/forest.webp) center / cover no-repeat;

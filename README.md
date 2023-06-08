@@ -236,11 +236,11 @@ Given the chance I'd want to test in other browsers (Opera, Samsung, Edge).
 All testing was performed on an Incognito page in Chrome.
 
 Homepage (desktop)<br>
-![Homepage desktop lighthouse validation](readme/lighthouse-desk.jpg)<br>
+![Homepage desktop lighthouse validation](readme/lighthouse-desk2.jpg)<br>
 Homepage (mobile)<br>
-![Homepage mobile lighthouse validation](readme/lighthouse-mob.jpg)<br>
+![Homepage mobile lighthouse validation](readme/lighthouse-mob2.jpg)<br>
 
-Performance on mobile was originally a disappointing 72. The main issue seemed to be loading times for the background and intro-modal images, so I converted them from jpg to webp and moved the background image styling into the HTML as inline CSS. Following these changes I got the score up to 78 - still not very high, and an area for improvement.
+Performance on mobile was originally a disappointing 72. The main issue seemed to be loading times for the background and intro-modal images, so I converted them from jpg to webp and swapped modal and background images. Following these changes I got the score up to 87, far more acceptable.
 
 ## Wave Testing
 
