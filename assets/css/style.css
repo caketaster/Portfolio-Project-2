@@ -1,17 +1,19 @@
 /* Whole page styles */
-/* The following line assists in text-scaling and was taken from https: //sjorswijsman.medium.com/3-easy-css-tricks-for-responsive-websites-i-use-in-every-project-68ec334a1522 */
+/* The following line of code assists in text-scaling and was taken from https: //sjorswijsman.medium.com/3-easy-css-tricks-for-responsive-websites-i-use-in-every-project-68ec334a1522 */
 html {
     font-size: calc(60% + 0.8vmin);
 }
 
+/* The linear gradient on the background (and intro modal) was proposed by a fellow student in peer code review. I slightly edited and adapted the code he suggested */
 body {
     text-align: center;
     font-family: 'Carme', sans-serif;
     color: white;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: center / cover;
     margin: 0 auto;
     min-height: 100vh;
+    background: linear-gradient(14deg, rgba(5, 2, 51, 0.793) 0%, rgba(4, 16, 26, 0.656) 6%, rgba(12, 47, 22, 0.39) 100%), url(../images/forest.webp) center / cover no-repeat;
 }
 
 .background {
@@ -28,6 +30,7 @@ body {
     color: white;
     margin-bottom: 10px;
     text-shadow: 2px 3px black;
+    padding: 0.2em;
 }
 
 h2 {
@@ -35,7 +38,6 @@ h2 {
     text-shadow: 2px 2px black;
 }
 
-/* Partially adapted from https://www.freecodecamp.org/news/how-to-build-a-modal-with-javascript/ */
 .intro-modal,
 .info-modal {
     font-family: 'Denk One', sans-serif;
@@ -51,9 +53,9 @@ h2 {
     flex-direction: column;
     justify-content: center;
     top: 20%;
-    background-image: url("../images/forest.webp");
     border: 1px solid rgb(255, 255, 255);
     text-shadow: 1px 1px black;
+    background: linear-gradient(14deg, rgba(2, 0, 36, 0.793) 0%, rgba(3, 13, 21, 0.656) 6%, rgba(11, 43, 20, 0.39) 100%), url(../images/bg.webp) center / cover no-repeat;
 }
 
 .intro-btns {
@@ -107,8 +109,7 @@ h2 {
     font-family: 'Denk One', sans-serif;
 }
 
-/* blur overlay behind modals 
-(with help from https: //www.freecodecamp.org/news/how-to-build-a-modal-with-javascript/ */
+/* blur overlay behind modals */
 .overlay {
     position: fixed;
     top: 0;
@@ -169,6 +170,12 @@ h2 {
     text-align: center;
     font-family: 'Carme', sans-serif;
     text-shadow: 1px 1px black;
+}
+
+#answer-a,
+#answer-b,
+#answer-c {
+    padding: 0 3px;
 }
 
 .answer-text {

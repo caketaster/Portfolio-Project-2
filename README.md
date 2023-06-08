@@ -120,15 +120,15 @@ This is a single page site with modals appearing to introduce the quiz and after
 ### Homepage
 
 An intro modal displays on pageload giving a brief introduction and the 3 quiz sections that you can choose from. <br>
-![intro modal](readme/intro-modal.jpg)<br><br>
+![intro modal](readme/intro-modal2.jpg)<br><br>
 An overlay blurs the screen background behind each modal (a subtle nod to the blurry photos usually associated with sasquatch) but the blur overlay disappears when each question is displayed.<br>
-![homepage](readme/homepage.jpg)<br><br>
+![homepage](readme/homepage2.jpg)<br><br>
 After each question is answered an info modal appears giving the correct answer and more information about the answer. <br>
-![info modal](readme/info-modal.jpg)<br><br>
+![info modal](readme/info-modal2.jpg)<br><br>
 The score/incorrect score tally increments. On completing your quiz section a final modal appears giving your score and a message. There are separate messages for any score over 4/10 and a single message for scores of 3 and under. On clicking Try Again the page then resets for another turn.<br>
-![final modal](readme/final-modal.jpg)<br><br>
+![final modal](readme/final-modal2.jpg)<br><br>
 Socials links glow on hover.<br>
-![socials glow on hover](readme/social-glow.jpg)<br><br>
+![socials glow on hover](readme/social-glow2.jpg)<br><br>
 
 ## Future Features
 
@@ -162,7 +162,7 @@ Socials links glow on hover.<br>
 - **Extra media queries for edge cases** <br>
   The site is responsive down to 320px wide (i.e. a Galaxy Fold, the smallest phone on DevTools) and looks relatively good on any larger screen sizes. One of the questions (screenshot below) has too many characters in the answers, and so looks rather squashed on the smallest screen sizes. The simplest fix would be to remove this question and come up with another! Advanced media queries could also be employed to edit the longer text strings ao smaller screens.
 
-  ![Sasquashed answers](readme/boggy-q.jpg)
+  ![Sasquashed answers](readme/boggy-q2.jpg)
 
 # Testing
 
@@ -282,7 +282,7 @@ The JS quiz functions were adapted and amalgamated from the following web tutori
 - [Easy Tutorials - How To Make Quiz App Using JavaScript](https://www.youtube.com/watch?v=PBcqGxrr9g8&ab_channel=EasyTutorials)
 - [How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial](https://www.youtube.com/watch?v=f4fB9Xg2JEY&ab_channel=BrianDesign)
 
-JS/CSS sites that I used:
+Other JS/CSS sites used:
 
 - [How to create the intro modal](https://www.freecodecamp.org/news/how-to-build-a-modal-with-javascript/)
 - [Vertically centre text](https://stackoverflow.com/questions/2939914/how-do-i-vertically-align-text-in-a-div)
