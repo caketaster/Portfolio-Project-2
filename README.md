@@ -4,7 +4,7 @@
 
 The Sasquatch Quiz is a multiple choice quiz site testing knowledge on the subject of sasquatch/bigfoot/the North American Wood Ape. Most of the questions are medium to high level difficulty - it's a quiz for people with a fairly deep interest in the subject matter rather than for beginners.
 
-![Responsiveness on a variety of screen sizes](readme/responsive.jpg)
+![Responsiveness on a variety of screen sizes](readme/responsive2.jpg)
 
 # Live site
 
